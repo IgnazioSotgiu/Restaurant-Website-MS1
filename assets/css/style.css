@@ -4,27 +4,84 @@
 .bg-color-header{
     background-color: #dab785;
 }
+.navbar-bg-color{
+    background-color: #646e68;
+}
 
-/*-----------------------------------Header*/
+/*-----------------------------------Header style*/
 .header-container{
     height: 180px;
     width: 100%;
     font-family: "Exo", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
-    padding: 30px ;
+    padding: 25px ;
     
 }
-.restaurant-name{
-    margin-left: 0;
-    padding-left: 20px;
-    margin-top: 20px;
+.restaurant-name {
+    font-weight:600;
+    letter-spacing: 15px;
+    line-height: 20px;
+    margin: 30px 0 10px 0;
+}
+.restaurant-name-subheader{
+    font-weight: 300;
+    letter-spacing: 10px;
 }
 .contacts-list{
-    margin-top: 20px;
-    padding: 0;
+    margin: 20px;
+    padding-left: 10%;
+}
+.contacts-list h5{
+    font-weight: 300;
 }
 .contacts-list i{
     width: 20px;
     height: 20px;
+}
+@media screen and (max-width: 843px){
+    .contacts-list{
+        margin-top: 20px;
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 767px){
+    .header-container{
+        padding: 10px;
+    }
+    .header-container h5{
+        font-size: 15px;
+    }
+    .restaurant-name-subheader{
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-size: 15px;
+    }
+    .contacts-list{
+        text-align: center;
+        padding: 0;
+    }
+    .contacts-list i{
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    }
+    .restaurant-name {
+    font-weight:500;
+    letter-spacing: 10px;
+    line-height: 15px;
+    margin: 15px 0 10px 0;
+    }
+}
+/*-----------------------------------Navbar style*/
+.navbar-container{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+}
+.nav-link{
+    color: #fafafa;
 }
