@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 .body{}
 /*-----------------------------------Colours*/
+/*----bg-image code taken from -https://css-tricks.com/perfect-full-page-background-image/ ---*/
+.bg-image{ 
+  background: url("../assets/images/risto.jpg") no-repeat top left fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .bg-color-header{
-    background-color: #dab785;
+    background-color:rgba(0, 0, 0, 0.25);                       /*#dab785;*/
+    background-size: cover;
 }
 .navbar-bg-color{
     background-color: #646e68;
@@ -15,18 +25,22 @@
     font-family: "Exo", sans-serif;
     font-weight: 400;
     margin: 0;
-    padding: 25px ;
+    padding: 20px ;
     
 }
 .restaurant-name {
     font-weight:600;
-    letter-spacing: 15px;
+    letter-spacing: 18px;
     line-height: 20px;
-    margin: 30px 0 10px 0;
+    margin: 20px 0 15px 0;
 }
 .restaurant-name-subheader{
     font-weight: 300;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
+}
+.restaurant-name-subheader-h6{
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 .contacts-list{
     margin: 20px;
@@ -34,6 +48,7 @@
 }
 .contacts-list h5{
     font-weight: 300;
+    margin-top: 10px;
 }
 .contacts-list i{
     width: 20px;
@@ -45,21 +60,28 @@
         padding-left: 0;
     }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 775px){
     .header-container{
-        padding: 10px;
+        padding: 0px;
     }
-    .header-container h5{
+    .header-container h6{
         font-size: 15px;
+        margin-top:0;
+    }
+    .contacts-list h5{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 5px;
     }
     .restaurant-name-subheader{
     font-weight: 300;
     letter-spacing: 5px;
-    font-size: 15px;
+    font-size: 13px;
     }
     .contacts-list{
         text-align: center;
         padding: 0;
+        margin-top: 10px;
     }
     .contacts-list i{
     width: 10px;
@@ -67,7 +89,7 @@
     margin-right: 3px;
     }
     .restaurant-name {
-    font-weight:500;
+    font-weight:300;
     letter-spacing: 10px;
     line-height: 15px;
     margin: 15px 0 10px 0;
@@ -75,13 +97,29 @@
 }
 /*-----------------------------------Navbar style*/
 .navbar-container{
-    margin: 0;
-    padding: 0;
+    top: 180px;
+    left: 0;
+    position : absolute;
+    padding-left: 0;
+    padding-right: 0;
 }
 .navbar{
+    margin-bottom: 0;
+    border: 0;
     height: 50px;
     width: 100%;
+    
 }
 .nav-link{
     color: #fafafa;
+}
+.navbar-brand{
+    color: #fafafa;
+}
+/*---------------------------toggler navigation link-*/
+.navbar-toggler{
+    border: 0;
+    background-color: gray;
+    color: #000;
+    z-index: 1;
 }

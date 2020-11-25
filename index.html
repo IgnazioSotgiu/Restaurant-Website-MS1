@@ -11,15 +11,16 @@
 <title>Da Pino Restaurant Website</title>
 </head>
 <body>
-    <header class="bg-color-header">
-        <div class="container-fluid header-container">
+    <header class="header-container container-fluid bg-image bg-color-header">
+        <div class="">
             <div class="row ">
-                <div class="col-md-6  text-center  ">
+                <div class="col-md-6 text-center">
                     <h1 class="restaurant-name uppercase">Da Pino</h1>
                     <h2 class="restaurant-name-subheader">Restaurant</h2>
+                    <h6 class="restaurant-name-subheader-h6">...It's a matter of taste...</h6>
                 </div>
                 
-                <div class="col-md-6 display-inline">
+                <div class="col-md-6 ">
                     <div class="contacts-list">
                         <h5><i class="fas fa-map-marker-alt"></i> 25, The Coombe, Dublin 8</h5>
                         <h5><i class="fa fa-phone"></i> 01 324 6598</h5>
@@ -28,13 +29,15 @@
                 </div>
             </div>
             <!-- Navbar toggle navigation structure taken from Whiskey Drop Landing Page. Code Institute-->
-            
-            <nav class="navbar navbar-expand-md navbar-bg-color navbar-container">
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-restaurant-dropdown" aria-expanded="false" aria-label="toggle-navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="container-fluid navbar-container ">
+                <nav class="navbar  navbar-expand-sm navbar-bg-color">
+                    <a href="/" class="navbar-brand uppercase mr-2">Da Pino Restaurant</a>
 
+                    <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#navbar-restaurant-dropdown" aria-expanded="false" aria-label="toggle-navigation">
+                    <span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbar-restaurant-dropdown">
                         <ul class="navbar-nav mr-auto">
-                            <li class="active nav-item mr-4"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="alacarte.html" id="navbar-restaurant-dropdown-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-hidden="false">Food Menus</a>
                                     <div class="dropdown-menu" aria-labelledby="navbar-restaurant-dropdown-link">
@@ -43,13 +46,14 @@
                                         <a class="dropdown-item" href="group-menu.html">Group Menu Sample</a>
                                     </div>
                             </li>
-                            <li class="nav-item mr-4"><a class="nav-link" href="wine-list.html">Wine List</a></li>
-                            <li class="nav-item mr-4"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                            <li class="nav-item mr-3"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item mr-2"><a class="nav-link" href="wine-list.html">Wine List</a></li>
+                            <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                            <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
 
                         </ul>
                     </div>
-            </nav>   
+            </nav>
+            </div>   
             
         </div>
     </header>
