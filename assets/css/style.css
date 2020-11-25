@@ -3,11 +3,11 @@
 /*-----------------------------------Colours*/
 /*----bg-image code taken from -https://css-tricks.com/perfect-full-page-background-image/ ---*/
 .bg-image{ 
-  background: url("../assets/images/risto.jpg") no-repeat top left fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url("/assets/images/—Pngtree—cartoon black food poster background_1035986.jpg") no-repeat top left fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .bg-color-header{
@@ -68,10 +68,11 @@
         font-size: 15px;
         margin-top:0;
     }
-    .contacts-list h5{
-        font-size: 15px;
-        font-weight: 300;
-        margin-top: 5px;
+    .restaurant-name {
+    font-weight:300;
+    letter-spacing: 10px;
+    line-height: 15px;
+    margin: 15px 0 10px 0;
     }
     .restaurant-name-subheader{
     font-weight: 300;
@@ -83,17 +84,17 @@
         padding: 0;
         margin-top: 10px;
     }
+    .contacts-list h5{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
     .contacts-list i{
     width: 10px;
     height: 10px;
     margin-right: 3px;
     }
-    .restaurant-name {
-    font-weight:300;
-    letter-spacing: 10px;
-    line-height: 15px;
-    margin: 15px 0 10px 0;
-    }
+    
 }
 /*-----------------------------------Navbar style*/
 .navbar-container{
