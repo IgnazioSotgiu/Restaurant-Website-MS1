@@ -1,38 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
-.body{}
-/*-----------------------------------Colours*/
-/*----bg-image code taken from -https://css-tricks.com/perfect-full-page-background-image/ ---*/
+.body{
+    font-family: "Exo",sans-serif;
+    background-color: ;
+}
 .bg-image{ 
-    background: url("/assets/images/—Pngtree—cartoon black food poster background_1035986.jpg") no-repeat top left fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+        height: 100vh;
+        background: url("/assets/images/jojo-sharemyfoodd-P-euaXq54UI-unsplash.jpg") no-repeat top left fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+/*-----------------------------------Colours for tablet and desktop view*/
+@media screen and (min-width: 575px){
+/*----bg-image code taken from -https://css-tricks.com/perfect-full-page-background-image/ ---*/
+    /*.bg-image{ 
+        background: url("/assets/images/—Pngtree—cartoon black food poster background_1035986.jpg") no-repeat top left fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }*/
+    .bg-color-header{
+        background-color: rgba(0, 0, 0, 0.50);
+        background-size: cover;
+    }
+    .navbar-bg-color{
+        background-color: rgba(0, 0, 0, 0.50);
+    }
 }
 
-.bg-color-header{
-    background-color:rgba(0, 0, 0, 0.25);                       /*#dab785;*/
-    background-size: cover;
-}
-.navbar-bg-color{
-    background-color: #646e68;
-}
-
-/*-----------------------------------Header style*/
+/*-----------------------------------Header for tablet and desktop style*/
 .header-container{
     height: 180px;
     width: 100%;
     font-family: "Exo", sans-serif;
     font-weight: 400;
     margin: 0;
-    padding: 20px ;
+    padding: 20px 40px ;
     
+}
+.name-contacts-section{
+    color: #fafafa;
 }
 .restaurant-name {
     font-weight:600;
     letter-spacing: 18px;
     line-height: 20px;
     margin: 20px 0 15px 0;
+    
 }
 .restaurant-name-subheader{
     font-weight: 300;
@@ -54,13 +70,43 @@
     width: 20px;
     height: 20px;
 }
-@media screen and (max-width: 843px){
+.contacts-mobile-view-band{
+    display: none;
+}
+.navbar-bg-color{
+    background-color:rgba(0, 0, 0, 0.25);
+}
+nav i{
+    width: 30px;
+    height: 30px;
+}
+.map-pin-navbar{
+    padding: 5px;
+    color: #fafafa;
+} 
+.navbar-expand-sm .navbar-nav .nav-link {
+    font-weight: 200;
+    padding-right: 5px;
+    padding-left: 5px;
+}   
+
+/*------------------adapt layout  header for screens smaller than 900px------*/
+@media screen and (max-width: 900px){
     .contacts-list{
         margin-top: 20px;
         padding-left: 0;
     }
+    .name-contacts-section{
+        padding: 0 20px;
+    }
+    .header-container{
+        padding: 20px 40px ;
+    }
 }
+/*----------------------------adapt layout header for screens smaller than 775px*/
 @media screen and (max-width: 775px){
+    
+    
     .header-container{
         padding: 0px;
     }
@@ -94,9 +140,95 @@
     height: 10px;
     margin-right: 3px;
     }
+    .navbar{
+    top: 180px;
+    position: fixed;
+    }
+    .nav-link{
+        font-size: 15px;
+
+    }
+}
+/*---------------------------style header for mobile devices----*/
+@media screen and (max-width: 575px){
+    .name-contacts-section{
+        display: none;
+    }
+    .header-container{
+        padding: 0px;
+    }
+    .header-container h6{
+        font-size: 15px;
+        margin-top:0;
+    }
+    .restaurant-name {
+    font-weight:300;
+    letter-spacing: 10px;
+    line-height: 15px;
+    margin: 15px 0 10px 0;
+    }
+    .restaurant-name-subheader{
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-size: 13px;
+    }
+    .contacts-list{
+        text-align: center;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .contacts-list h5{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    .contacts-list i{
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    }
+    .navbar{
+    top: 0;
+    position: fixed;
+    }
+    a .nav-link{
+        text-align: right;
+    }
+    .map-pin-navbar{
+        color: #fafafa;
+        padding-bottom: 5px;
+    }
+    .navbar-container a>i{
+    width: 20px;
+    height: 20px;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link {
+    font-weight: 200;
+    padding-right: 1rem;
+    padding-left: 2rem;
+}
+    .contacts-mobile-view-band{
+    top: 50px;
+    right: 0;    
+    width: 50%;
+    height: 100px;  
+    display: block;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.25);
+    position:absolute;
+    }
+    .contacts-mobile-view-band p{
+        margin-bottom: 8px;
+        text-align: center;
+        line-height: 20px;
+        color: #fafafa;
+    }
     
 }
-/*-----------------------------------Navbar style*/
+
+/*-----------------------------------Navbar style for tablet and desktop*/
 .navbar-container{
     top: 180px;
     left: 0;

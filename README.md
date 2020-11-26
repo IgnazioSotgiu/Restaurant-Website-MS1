@@ -44,3 +44,5 @@ In the Gallery Page the pictures will flow in the same screen one below the othe
 The menu pages will have the same body structure and colours, changing only the content, providing consistence and repetition thorough the website. A download button will be displayed just below the navbar, giving the user the choice for download the PDF menu.
   
 <span>Photo by <a href="https://unsplash.com/@lycs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">LYCS Architecture</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+<span>Photo by <a href="https://unsplash.com/@jojoyuen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">jojo (sharemyfoodd) ◡̈</a> on <a href="https://unsplash.com/s/photos/restaurants?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
