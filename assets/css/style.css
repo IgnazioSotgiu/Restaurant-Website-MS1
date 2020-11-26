@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 .body{
     font-family: "Exo",sans-serif;
-    background-color: ;
 }
 .bg-image{ 
         height: 100vh;
@@ -37,17 +36,27 @@
     font-family: "Exo", sans-serif;
     font-weight: 400;
     margin: 0;
-    padding: 20px 40px ;
+    padding: 20px 40px;
     
 }
-.name-contacts-section{
+.name-contacts-section {
     color: #fafafa;
 }
+.name-contacts-section a {
+    color: #fafafa;
+}
+.name-contacts-section a:hover {
+    color:gray;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
 .restaurant-name {
     font-weight:600;
     letter-spacing: 18px;
     line-height: 20px;
     margin: 20px 0 15px 0;
+    
     
 }
 .restaurant-name-subheader{
@@ -76,6 +85,11 @@
 .navbar-bg-color{
     background-color:rgba(0, 0, 0, 0.25);
 }
+.navbar a:hover {
+    color:gray;
+    text-decoration: none;
+    transition-duration: 1s;
+}
 nav i{
     width: 30px;
     height: 30px;
@@ -88,7 +102,9 @@ nav i{
     font-weight: 200;
     padding-right: 5px;
     padding-left: 5px;
-}   
+}
+/*----------------------------------header and navbar hover element----------*/
+
 
 /*------------------adapt layout  header for screens smaller than 900px------*/
 @media screen and (max-width: 900px){
@@ -224,6 +240,14 @@ nav i{
         text-align: center;
         line-height: 20px;
         color: #fafafa;
+    }
+    .contacts-mobile a {
+    color: #fafafa;
+    }
+    .contacts-mobile a:hover {
+    color:gray;
+    text-decoration: none;
+    transition-duration: 1s;
     }
     
 }
