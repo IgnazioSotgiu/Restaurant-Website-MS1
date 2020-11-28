@@ -42,7 +42,8 @@ Each page will keep the same header and footer.
 The homepage main section will have a full image on the background with some windows opening on the side with Special Offers, Take Away  and dietary friendly message. In the Mobile devices the messages will take the full width of the screen keeping the picture in the background. In tablet and desktop screens at the bottom of the main picture three columns will contain reviews of different customers. Again in the mobile view the reviews will display in a single column for the full width of the screen.  
 In the Gallery Page the pictures will flow in the same screen one below the other and that will be the same for the smaller devices and tablet.   
 The menu pages will have the same body structure and colours, changing only the content, providing consistence and repetition thorough the website. A download button will be displayed just below the navbar, giving the user the choice for download the PDF menu.
-  
+
+pictures sources for this phase of development 
 <span>Photo by <a href="https://unsplash.com/@lycs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">LYCS Architecture</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 <span>Photo by <a href="https://unsplash.com/@jojoyuen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">jojo (sharemyfoodd) ◡̈</a> on <a href="https://unsplash.com/s/photos/restaurants?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
