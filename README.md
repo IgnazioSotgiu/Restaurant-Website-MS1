@@ -32,18 +32,30 @@ Other features that we get from the User Stories will be implemented in the futu
 1. Know if the restaurant caters for vegans or vegetarians with a new section, with menu items and customers special requests.
 1. Promote and sell gift vouchers.
 1. Create a Customer Database, Sign In to a newsletter to get information on the new menus and new offers.
-1. Lunch menu section.
+1. Lunch menu section.  
+
+Find in the attached document [User Stories pdf](./assets/docs/user-stories.pdf) the trade off graph, with a list of user stories order of importance and viability.
+
+[Here](./assets/docs/wireframes.pdf) we can see the Wireframes of the website pages.
 
 ### Website structure
 
 The Website will have a non-linear hyperlinked structure. A navigation bar will be in the header providing links to the different Menu Pages, the Wine List, The Gallery Page, and the Contact Form.  
 In the mobile devices the navigation bar will collapse into a toggle menu (hamburger icon) taking less real estate space and allow the home page to be a bit lighter and not too busy.
 Each page will keep the same header and footer.  
-The homepage main section will have a full image on the background with some windows opening on the side with Special Offers, Take Away  and dietary friendly message. In the Mobile devices the messages will take the full width of the screen keeping the picture in the background. In tablet and desktop screens at the bottom of the main picture three columns will contain reviews of different customers. Again in the mobile view the reviews will display in a single column for the full width of the screen.  
+The homepage main section will have a full image on the background with some windows opening on the side with Special Offers, Take Away  and dietary friendly message. In the Mobile devices the messages will take the full width of the screen keeping the picture in the background. In desktop screens at the bottom of the main picture three columns will contain reviews of different customers. In the tablet screen only 2 reviews will be displayed inline. In the mobile view the reviews will display in a single column for the full width of the screen.  
 In the Gallery Page the pictures will flow in the same screen one below the other and that will be the same for the smaller devices and tablet.   
-The menu pages will have the same body structure and colours, changing only the content, providing consistence and repetition thorough the website. A download button will be displayed just below the navbar, giving the user the choice for download the PDF menu.
+The menu pages will have the same body structure and colours, changing only the content, providing consistence and repetition thorough the website. A download button will be displayed just below the navbar, giving the user the choice for download a printable copy of the menu.
 
-pictures sources for this phase of development 
-<span>Photo by <a href="https://unsplash.com/@lycs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">LYCS Architecture</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
-<span>Photo by <a href="https://unsplash.com/@jojoyuen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">jojo (sharemyfoodd) ◡̈</a> on <a href="https://unsplash.com/s/photos/restaurants?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+##  Header Features:
+* By clicking on the name of the restaurant and the subheaders the user will go to index.html.
+* The address is linked to google maps website to show the exact location on map. The map will open in a new tab, keepink the user with a tab open still on our website.
+* The email address is linked to contacts modal for any enquiries.
+* The navbar links in the tablet and desktop screen size will connect to Home, Food menus - which will be a dropdown menu with a la carte, pre theatre and group menu - Wine List, Gallery, and Contacts. 
+* In the mobile view the navigation links will be in the toggle icon which will be fixed on the top of the screen when the user will scroll down the page, for a more user friendly navigation thorough the pages.
+* In the mobile view beside the toggle icon there will be a map pin linked to Google maps website showing the exact location of the Restaurant.
+* In the mobile view in the top right the name of the Restaurant will be displayed and linked to the Home Page. 
+* In the mobile view on top, the page will have contact details,(phone number and email address - linked to contact modal).  
+## Footer Features  
+* In the footer we will have links to Social Media Accounts (Twitter, Facebook, Instagram) also a link to Tripadvisor.
+* At the bottom of the footer we will have the symbols of accepted payment cards.

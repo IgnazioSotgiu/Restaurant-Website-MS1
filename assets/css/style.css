@@ -334,18 +334,7 @@ nav a:hover {
     transition-duration: 1s;
 }
 /*--------------------------- hero image specials section style-*/
-.specials-container{
-    top: 230px;
-    left: 0;
-    height: 690px;
-    width: 100%;
-    background-color: #3B341F;
-}
-.jumbotron{
-    display: block;
-    margin: 70px 20px 20px;
-    
-}
+
 /*--------------------------- footer style-*/
 .footer-container{
     bottom: 0;
@@ -381,6 +370,7 @@ nav a:hover {
     display: inline block;
     float: none;
 }
+/*---------this code was taken from bootstrap library --End--*/
 .social-media a:hover{
     color:gray;
     text-decoration: none;
@@ -401,4 +391,122 @@ nav a:hover {
     height: 30px;
     text-align: center;
     color: #fafafa;
+}
+/*------------------------styling hero image section index.html-------*/
+.specials-container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 720px;
+    background-color: rgb(167, 81, 31);
+    position: relative;
+}
+/*.hero-image{
+    height: 100vh;
+        background: url("") no-repeat top left fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}*/
+.special-pre-theatre{
+    top: 30px;
+    left: 10%;
+    padding: 50px 50px;
+    width: 350px;
+    height: 200px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20%;
+    text-align: center;
+}
+.btn-success{
+    background-color:rgb(167, 81, 31);
+    border-color: rgb(167, 81, 31); 
+    margin-top: 10px;
+}
+.btn-success:hover{
+    background-color:rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+    transition-duration: 0.5s; 
+}
+.special-pre-theatre a{
+    color: #fafafa;
+}
+.special-pre-theatre a:hover{
+    color: rgb(255, 187, 0);
+}
+.special-sunday{
+    top: 60px;
+    left: 10%;
+    padding: 50px 50px;
+    width: 350px;
+    height: 200px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20%;
+    text-align: center;
+}
+.special-sunday p{
+    color: #fafafa;
+    margin-bottom: 0px;
+}
+
+.special-sunday a:hover{
+    color: rgb(255, 187, 0);
+}
+.special-take-away{
+    top: 90px;
+    left: 10%;
+    padding: 50px 50px;
+    width: 350px;
+    height: 200px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20%;
+    text-align: center;
+}
+.special-take-away a{
+    color: #fafafa;
+}
+.special-take-away a:hover{
+    color: rgb(255, 187, 0);
+}
+@media screen and (max-width: 575px) {
+    .specials-container{
+        height: 510px;
+    }
+    .special-pre-theatre{
+        top: 0;
+        left: 0;
+        padding: 20px 20px;
+        width: 100%;
+        height: 150px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.25);
+        border-radius: 0%;
+        text-align: center;
+    }
+    .special-sunday{
+        top: 30px;
+        left: 0;
+        padding: 20px 20px;
+        width: 100%;
+        height: 150px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.25);
+        border-radius: 0%;
+        text-align: center;
+    }
+    .special-take-away{
+        top: 60px;
+        left: 0;
+        padding: 20px 20px;
+        width: 100%;
+        height: 150px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.25);
+        border-radius: 0%;
+        text-align: center;
+    }
 }
