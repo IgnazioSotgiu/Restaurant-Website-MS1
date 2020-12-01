@@ -564,6 +564,81 @@ nav a:hover {
     .hr-reviews{
         width: 60%;
     }
-
 }
+/*--------------------------Styling a-la-carte.html/group-meny.html/pre-theatre.html/wine-list.html menu section----------------*/
+.menu-container{
+    font-family: "Exo", sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    color: #fafafa;
+}
+.menu-container-bg-color{
+    background-color: #333;
+}
+.menu-header{
+    text-align: center;
+    padding: 20px;
+}
+.menu-title h3{
+    padding-bottom: 15px;
+}
+.menu-title p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.download-link{
+    font-size: 15px;
+}
+.download-link a, i{
+    color: #fafafa;
+}
+.download-link a:hover{
+    font-size: 20px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.hr-top-menu{
+    width: 50%;
+    background-color: #fafafa;
+    height: 0.2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.hr-mid-menu{
+    width: 30%;
+    background-color: #fafafa;
+    height: 0.2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.food-items ul{
+    list-style-type: none;
+    padding: 10px;
+}
+.food-items h4, li{
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+@media screen and (max-width: 575px){
+    .menu-container{
+        padding:20px 10px;
+    }
+    .menu-header{
+        padding: 0;
+    }
+    .download-link{
+        font-size: 10px;
+    }
+    .download-link a:hover{
+        font-size: 15px;
+        text-decoration: none;
+        transition-duration: 0.5s;
+    }
+    .food-items h4, li{
+        font-size: 90%;
+    }
+}
+
 
