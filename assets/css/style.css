@@ -126,11 +126,15 @@ nav a:hover {
     text-decoration: none;
     background-color: gray;
 }
+.dropdown-item:hover{
+    background-color: #eaa017;
+}
 /*--------------------------------end-----------------------------------*/
 .navbar-nav .dropdown-menu{
     width: fit-content;
     background-color: #fdf6e5;
 }
+
 /*------------------adapt layout  header for screens smaller than 900px------*/
 @media screen and (max-width: 900px){
     .contacts-list{
@@ -348,14 +352,15 @@ nav a:hover {
     background-color:transparent;
 }
 .navbar-toggler:hover{
-    background-color: rgb(109, 46, 5);
-    transition-duration: 1s;
+    background-color: rgb(8, 8, 8);
+    transition-duration: 0.5s;
 }
 /*--------------------------- hero image specials section style-*/
 
 /*--------------------------- footer style-*/
 .footer-container{
-    height: 320px;
+    width: 100%;
+    height: auto;
     background-color: rgb(109, 46, 5);
     position: relative;
 }
@@ -378,6 +383,19 @@ nav a:hover {
     width: 30px;
     height: 30px;
 }
+.contacts-footer{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.contacts-footer a, p{
+    color: #fafafa;
+    text-align: center;
+}
+.contacts-footer p{
+    margin-bottom: 0px;
+}
 /*---------this code was taken from bootstrap library*/
 .row-center{
     text-align: center;
@@ -396,8 +414,8 @@ nav a:hover {
     width: 50%;
     height: 0.5px;
     background-color: #fafafa;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 .credit-card-icon{
@@ -552,6 +570,7 @@ nav a:hover {
     color: #000000;
 }
 .reviews-container p{
+    color: #000;
     padding: 30px;
 }
 @media screen and (max-width: 575px){
@@ -580,8 +599,9 @@ nav a:hover {
     text-align: center;
     padding: 20px;
 }
-.menu-title h3{
+h3{
     padding-bottom: 15px;
+    text-align: center;
 }
 .menu-title p{
     font-size: 15px;
@@ -620,6 +640,7 @@ nav a:hover {
     text-align: center;
     text-decoration: none;
     padding-bottom: 5px;
+    text-transform: capitalize;
 }
 @media screen and (max-width: 575px){
     .menu-container{
@@ -640,5 +661,55 @@ nav a:hover {
         font-size: 90%;
     }
 }
-
-
+/*------------------sizing images for the galley page--------------------------*/
+.gallery-container{
+    width: 100%;
+    padding: 0px 40px;
+}
+.gallery-bg-color{
+    background-color: gray;
+}
+.gallery-message h3{
+    padding-top: 40px;
+    padding-bottom: 40px; 
+}
+.gallery-image{
+    max-width: 60%;
+    max-height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+.hr-gallery{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #000000;
+    width: 20%;
+}
+.hr-gallery-bottom{
+    margin-top: 40px;
+    margin-bottom: 0;
+    background-color: gray;
+    width: 20%;
+}
+@media screen and (max-width: 575px){
+    .gallery-container{
+        padding: 0 5px;
+    }
+    .gallery-message h3{
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .gallery-image{
+        max-width: 100%;
+        max-height: auto;
+    }
+    .hr-gallery{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .hr-gallery-bottom{
+        margin-top: 30px;
+    }
+}
