@@ -50,13 +50,13 @@
                             <a class="nav-link dropdown-toggle" href="a-la-carte.html" id="navbarRestaurantDropdownLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-hidden="false">Food Menu</a>
                             <div class="dropdown-menu" aria-labelledby="navbarRestaurantDropdownLink">
                                 <a class="dropdown-item" href="a-la-carte.html">A la Carte Menu</a>
-                                <a class="active dropdown-item" href="pre-theatre.html">Pre Theatre Menu</a>
+                                <a class="dropdown-item" href="pre-theatre.html">Pre Theatre Menu</a>
                                 <a class="dropdown-item" href="group-menu.html">Group Menu </a>
                             </div>
                         </li>
                         <li class="nav-item mr-2"><a class="nav-link" href="wine-list.html">Wine List</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="active nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
 
                     </ul>
                 </div>
@@ -79,55 +79,33 @@
                 </div>
     </div>
     <section>
-        <div class="menu-container container-fluid menu-container-bg-color">
-            <div class="menu-header">
-                <div class="menu-title">
-                    <h3>Group Menu</h3>
-                    <p class="group-price">€19.99 Per Person for 2 courses dinner</p>
-                    <p class="group-price">€24.99 Per Person for 3 courses dinner </p>
-                    <p class="menu-message">Available from 5:00 till 7:00</p>
-                </div>
-                <div class="download-link">
-                    <a href="pre-theatre.pdf" target="_blank">Download the menu here <i class="fas fa-download"></i></a> 
-                </div>
-                <hr class="hr-top-menu">
-            </div>
-            <div class="food-items">
-                <h4>Starters</h4>
-                <ul>
-                    <li>Tuna Salad</li>
-                    <li>Bruschetta</li>
-                    <li>Onion Soup </li>
-                </ul>
-                <hr class="hr-mid-menu">
-                <h4>Pasta Dishes</h4>
-                <ul>
-                    <li>Penne Bolognese</li>
-                    <li>Spachetti Carbonara</li>
-                    <li>Tortellini Alfredo</li>
-                </ul>
-                <hr class="hr-mid-menu">
-                <h4>Meats</h4>
-                <ul>
-                    <li>Striploin</li>
-                    <li>Chicken Curry</li>
-                </ul>
-                <hr class="hr-mid-menu">
-                <h4>Fish</h4>
-                <ul>
-                    <li>Grilled Salmon</li>
-                    <li>Poached Cod</li>
-                </ul>
-                 <hr class="hr-mid-menu">
-                <h4>Desserts</h4>
-                <ul>
-                    <li>Ice Cream</li>
-                    <li>Rice Pudding</li>
-                </ul>
+        <div class="container-fluid contact-container contact-container-bg-color">            
+            <div class="jumbotron">
+                <form>
+                    <div class="row">
+                        <div class="enquiry-form-item col-md-6">
+                            <label for="fullname">Full Name</label>
+                            <br>
+                            <input type="text" class="full-name-input" id="fullname" placeholder="">
+                        </div>
+                        <div class="enquiry-form-item col-md-6">
+                            <label for="email">email address</label>
+                            <br>
+                            <input type="email" class="email-input" id="email" placeholder="">
+                        </div>
+                        <div class="enquiry-form-item col-12">
+                            <label for="request-enquiry">Request / Enquiry</label>
+                            <br>
+                            <!-- line of code supported by w3school website-->   
+                             <textarea type="text" class="request" id="request-enquiry" name="subject" placeholder="" style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <a href=""><button type="button" class="btn btn-success">Send</button></a>
+                </form>
             </div>
         </div>
     </section>
-   <footer>
+    <footer>
         <div class="container-fluid footer-container">
             <div class="row">
                 <div class="col-12 footer-message">
