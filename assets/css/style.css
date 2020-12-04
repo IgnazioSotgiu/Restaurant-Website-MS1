@@ -628,6 +628,23 @@ nav a i:hover {
 .menu-container-bg-color{
     background-color: #333;
 }
+.wine-list-bg-image{
+     height: auto;
+    background: url("../images/arisa-chattasa-Hi0eZI8LSYU-unsplash.jpg") no-repeat bottom right ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.overlay{
+    height: auto;
+    background-color:rgba(0,0,0,0.5);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
 .menu-header{
     text-align: center;
     padding: 20px;
