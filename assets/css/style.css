@@ -622,28 +622,31 @@ nav a i:hover {
     font-family: "Exo", sans-serif;
     width: 100%;
     height: auto;
-    padding: 50px;
+    padding:50px;
     color: #fafafa;
 }
 .menu-container-bg-color{
     background-color: #333;
 }
+.wine-list-container{
+    font-family: "Exo", sans-serif;
+    width: 100%;
+    height: auto;
+    padding:0;
+    color: #fafafa;
+}
 .wine-list-bg-image{
-     height: auto;
+    height: auto;
     background: url("../images/arisa-chattasa-Hi0eZI8LSYU-unsplash.jpg") no-repeat bottom right ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-.overlay{
-    height: auto;
-    background-color:rgba(0,0,0,0.5);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
+.image-overlay{
+    position:relative;
+    background-color: rgba(0,0,0,0.8);
+    
 }
 .menu-header{
     text-align: center;
@@ -693,8 +696,8 @@ h3{
     text-transform: capitalize;
 }
 @media screen and (max-width: 575px){
-    .menu-container{
-        padding:20px 10px;
+    menu.container{
+        padding:50px;
     }
     .menu-header{
         padding: 0;
@@ -723,8 +726,8 @@ h3{
     padding-top: 40px;
     padding-bottom: 40px; 
 }
-.gallery-image{
-    max-width: 60%;
+.gallery-image {
+    max-width: 500px ;
     max-height: auto;
     border-radius: 8px;
     display: block;
