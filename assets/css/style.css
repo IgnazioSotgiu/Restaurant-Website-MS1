@@ -3,22 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Exo",sans-serif;
-}
-/*.bg-image{ 
-    height: 720px;
-    background: url("./assets/images/louis-hansel-shotsoflouis-R6_o_PPAS94-unsplash.jpg") no-repeat bottom right fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-   display: flex;
-   align-items: center;
-   justify-content: center;
-
-   position: relative;
-}*/
-
+    }
 /*-----------------------------------Header for tablet and desktop style*/
 .header-container{
     height: 170px;
@@ -73,7 +58,7 @@
 .name-contacts-section a:hover {
     color:gray;
     text-decoration: none;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 /*----------------------------------header and navbar hover element----------*/
 .navbar-container{
@@ -90,7 +75,7 @@
         background-color: #545b62;
 }
 nav a i:hover {
-    color: #0a0a0a;
+    color: #ffbf00;
     text-decoration: none;
     transition-duration: 0.5s;
 }
@@ -104,9 +89,9 @@ nav a i:hover {
     
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-    color:gray;
+    color:#000;
     text-decoration: none;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 /*---------code taken with Google Crome developer tool------------*/
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
@@ -169,15 +154,15 @@ nav a i:hover {
         margin-top:0;
     }
     .restaurant-name {
-    font-weight:300;
-    letter-spacing: 10px;
-    line-height: 15px;
-    margin: 15px 0 10px 0;
+        font-weight:300;
+        letter-spacing: 10px;
+        line-height: 15px;
+        margin: 15px 0 10px 0;
     }
     .restaurant-name-subheader{
-    font-weight: 300;
-    letter-spacing: 5px;
-    font-size: 13px;
+        font-weight: 300;
+        letter-spacing: 5px;
+        font-size: 13px;
     }
     .contacts-list{
         text-align: center;
@@ -190,14 +175,14 @@ nav a i:hover {
         margin-top: 5px;
     }
     .contacts-list i{
-    width: 10px;
-    height: 10px;
-    margin-right: 3px;
+        width: 10px;
+        height: 10px;
+        margin-right: 3px;
     }
     .navbar{
-    left: 0px;
-    width: 100%;
-    position: relative;
+        left: 0px;
+        width: 100%;
+        position: relative;
     }
     .nav-link{
         font-size: 15px;
@@ -211,11 +196,11 @@ nav a i:hover {
         position: relative;
     }
     .navbar-container{
-            margin: 0;
-            padding: 0;
-            top:0;
-            left: 0;
-            position: relative;
+        margin: 0;
+        padding: 0;
+        top:0;
+        left: 0;
+        position: relative;
     }
     .contacts-list{
         margin-bottom: 10px;
@@ -266,10 +251,10 @@ nav a i:hover {
     margin-right: 3px;
     }*/
     .navbar {
-    top: 0;
-    position: fixed;
-    background-color:#545b62;
-    z-index: 1;
+        top: 0;
+        position: fixed;
+        background-color:#545b62;
+        z-index: 1;
     }
     .navbar-brand{
         display: inline;
@@ -283,35 +268,35 @@ nav a i:hover {
         padding-bottom: 5px;
     }
     .navbar-container a>i{
-    width: 20px;
-    height: 20px;
+        width: 20px;
+        height: 20px;
     }
     .navbar-expand-sm .navbar-nav .nav-link {
-    font-weight: 200;
-    padding-right: 1rem;
-    padding-left: 2rem;
-    background-color: rgba(0,0,0,0.8);
-    width: 50%;
+        font-weight: 200;
+        padding-right: 1rem;
+        padding-left: 2rem;
+        background-color: rgba(0,0,0,0.8);
+        width: 50%;
     }
     .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #fbf4f5;
-    border: 2px solid;
-    border-radius: 20px;
-    border-color: #545b62;
-    background-color: #000;
-    margin-top: 4px;
+        color: #fbf4f5;
+        border: 2px solid;
+        border-radius: 20px;
+        border-color: #545b62;
+        background-color: #000;
+        margin-top: 4px;
     }
     .contacts-mobile-view-band{
-    top: 50px;
-    right: 0;    
-    width: 50%;
-    height: 100px;  
-    display: block;
-    font-size: 15px;
-    margin: 0;
-    padding: 10px;
-    background-color:rgba(0, 0, 0, 0.25);
-    position:absolute;
+        top: 50px;
+        right: 0;    
+        width: 50%;
+        height: 100px;  
+        display: block;
+        font-size: 15px;
+        margin: 0;
+        padding: 10px;
+        background-color:rgba(0, 0, 0, 0.25);
+        position:absolute;
     }
     .contacts-mobile-view-band p{
         margin-bottom: 8px;
@@ -323,24 +308,24 @@ nav a i:hover {
         color: #fafafa;
     }
     .contacts-mobile a:hover {
-    color:gray;
-    text-decoration: none;
-    transition-duration: 1s;
+        color:gray;
+        text-decoration: none;
+        transition-duration: 1s;
     }
     .contacts-mobile .btn {
-    border-radius: 20px;
-    color: #fafafa;
+        border-radius: 20px;
+        color: #fafafa;
     }
     .btn-success:hover {
-    color: #fff;
-    border-color: rgb(109, 46, 5);
-    background-color: rgb(109, 46, 5);
-    transition-duration: 0.5s;
+        color: #fff;
+        border-color: rgb(109, 46, 5);
+        background-color: rgb(109, 46, 5);
+        transition-duration: 0.5s;
     }
     .footer-message h4{
         font-size:18px;
     }
-    
+
 }
 
 /*-----------------------------------Navbar style for tablet and desktop*/
@@ -351,7 +336,7 @@ nav a i:hover {
     left: 0;
     width: 100%;
     margin-top: 00px;
-    }
+}
 .navbar{
     padding-bottom: 3px;
     margin-bottom: 0;
@@ -405,6 +390,9 @@ nav a i:hover {
     width: 30px;
     height: 30px;
 }
+.social-media i :hover{
+    background-color:#000;
+}
 .contacts-footer{
     padding: 20px;
     width: 100%;
@@ -427,11 +415,16 @@ nav a i:hover {
     float: none;
 }
 /*---------this code was taken from bootstrap library --End--*/
-.social-media a:hover{
-    color:gray;
+.social-media a>i:hover{
+    color:#ffbf00;
     text-decoration: none;
-    transition-duration: 1s;
+    transition-duration: 0.5s
 }
+.social-media a:hover{
+    text-decoration: none;
+    transition-duration: 0.5s;
+    color:gray;
+    }
 .hr-footer{
     width: 50%;
     height: 0.2px;
@@ -452,14 +445,7 @@ nav a i:hover {
 }
 /*------------------------styling hero image section index.html----*/
 /*--------------------code taken from whiskey drop project - code institute---------*/
-.hero-image{
-    height: 720px;
-    background: url("../images/vishwas-katti-UrQ_BS9bLXQ-unsplash.jpg") no-repeat bottom right ; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 .specials-container{
     margin: 0;
     padding: 0;
@@ -502,11 +488,11 @@ nav a i:hover {
 .specials-container a{
     color: #fafafa;
 }
-/*.specials-container a:hover{
+.specials-container a:hover{
     color: rgb(255, 187, 0);
     text-decoration: none;
     transition-duration: 0.5s;
-}*/
+}
 .special-sunday{
     top: 60px;
     left: 10%;
@@ -628,6 +614,14 @@ nav a i:hover {
 .menu-container-bg-color{
     background-color: #333;
 }
+.menu-container-bg-image{
+    height: auto;
+    background: url("../images/—Pngtree—cartoon black food poster background_1035986.jpg") no-repeat bottom right ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .wine-list-container{
     font-family: "Exo", sans-serif;
     width: 100%;
@@ -666,8 +660,10 @@ h3{
 .download-link a, i{
     color: #fafafa;
 }
-.download-link a:hover{
-    font-size: 20px;
+.download-link :hover{
+    border: 0.5px solid;
+    border-color: #fafafa;
+    color: #fafafa;
     text-decoration: none;
     transition-duration: 0.5s;
 }
@@ -697,7 +693,7 @@ h3{
 }
 @media screen and (max-width: 575px){
     menu.container{
-        padding:50px;
+        padding:20px 10px;
     }
     .menu-header{
         padding: 0;
@@ -706,7 +702,9 @@ h3{
         font-size: 10px;
     }
     .download-link a:hover{
-        font-size: 15px;
+        border: 0.5px solid;
+        border-color: #fafafa;
+        color: #fafafa;
         text-decoration: none;
         transition-duration: 0.5s;
     }
