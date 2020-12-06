@@ -616,7 +616,7 @@ nav a i:hover {
 }
 .menu-container-bg-image{
     height: auto;
-    background: url("../images/—Pngtree—cartoon black food poster background_1035986.jpg") no-repeat bottom right ; 
+    background: url("../images/black-texture.jpg") no-repeat bottom right ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -721,6 +721,7 @@ h3{
     background-color: gray;
 }
 .gallery-message h3{
+    color:#fafafa;
     padding-top: 40px;
     padding-bottom: 40px; 
 }
