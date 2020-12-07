@@ -130,6 +130,18 @@ nav a i:hover {
     width: fit-content;
     background-color: #fdf6e5;
 }
+/*----------------------code taken with crome developer tool----------------*/
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #d39e00;
+    border-color: #d39e00;
+}
+.btn-success.focus, .btn-success:focus {
+    color: #fff;
+    background-color: #d39e00;
+    border-color: #d39e00;
+    box-shadow: none;
+}
 
 /*------------------adapt layout  header for screens smaller than 900px------*/
 @media screen and (max-width: 900px){
@@ -472,6 +484,14 @@ nav a i:hover {
     border-radius: 20%;
     text-align: center;
 }
+.specials-container a{
+    color: #fafafa;
+}
+.specials-container a:hover{
+    color: grey;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
 .btn-success{
     background-color:#545b62;
     border-color: #545b62; 
@@ -485,14 +505,7 @@ nav a i:hover {
     color: #000;
     border-color: transparent; 
 }
-.specials-container a{
-    color: #fafafa;
-}
-.specials-container a:hover{
-    color: rgb(255, 187, 0);
-    text-decoration: none;
-    transition-duration: 0.5s;
-}
+
 .special-sunday{
     top: 60px;
     left: 10%;
