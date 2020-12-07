@@ -385,7 +385,7 @@ nav a i:hover {
 }
 .social-media a{
     margin: auto;
-    padding:  50px auto;
+    padding:  50px;
     color: #fafafa;
     width: 30px;
     height: 30px;
@@ -411,7 +411,7 @@ nav a i:hover {
     text-align: center;
 }
 .col-center{
-    display: inline block;
+    display: inline;
     float: none;
 }
 /*---------this code was taken from bootstrap library --End--*/
@@ -727,7 +727,7 @@ h3{
 }
 .gallery-image {
     max-width: 500px ;
-    max-height: auto;
+    height: auto;
     border-radius: 8px;
     display: block;
     margin: auto;
@@ -755,7 +755,7 @@ h3{
     }
     .gallery-image{
         max-width: 100%;
-        max-height: auto;
+        height: auto;
     }
     .hr-gallery{
         margin-top: 30px;
