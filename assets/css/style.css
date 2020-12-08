@@ -128,12 +128,12 @@ nav a i:hover {
     border-color: #fafafa;
 }/*-----------------------------------------------------------------*/
 /*---------code taken with Google Crome developer tool------------*/
-/*        black border for active element in navbar               */
+/*        white border for active element in navbar               */
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: #fafafa;
     border: 0.5px solid;
     border-radius: 20px;
-    background-color: transparent;
+    background-color: #000;
     border-color: #fafafa;
     
 }
@@ -400,15 +400,14 @@ nav a i:hover {
     width: 100%;
     margin-top: 0;
 }*/
-.navbar{
+/*.navbar{
     padding-top:10px;
     padding-bottom: 3px;
     margin-bottom: 0;
     border: 0;
     height: 50px;
     width: 100%;
-    
-}
+    }
 /*.nav-link{
     color: #fafafa;
 }
@@ -419,14 +418,12 @@ nav a i:hover {
 .navbar-toggler{
     border: 0;
     background-color:transparent;
-}
+    }
 .navbar-toggler:hover{
-    background-color: rgb(8, 8, 8);
+    background-color: #000;
     transition-duration: 0.5s;
-}
-/*--------------------------- hero image specials section style-*/
-
-/*--------------------------- footer style-*/
+    }
+/*--------------------------- footer style------------------------------------------*/
 .footer-container{
     width: 100%;
     height: auto;
@@ -443,6 +440,10 @@ nav a i:hover {
     text-size-adjust: 80%;
     color: #fafafa;
 }
+.row{
+    margin-left:0;
+    margin-right:0;
+}
 .social-media{
     width: 100%;
     
@@ -451,8 +452,10 @@ nav a i:hover {
     margin: auto;
     padding:  50px;
     color: #fafafa;
-    width: 30px;
-    height: 30px;
+    
+}
+.social-media i{
+    text-align:center;
 }
 .social-media i :hover{
     background-color:#000;
@@ -493,7 +496,7 @@ nav a i:hover {
     width: 50%;
     height: 0.2px;
     background-color: #fafafa;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
 
 }
