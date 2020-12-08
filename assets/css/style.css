@@ -68,6 +68,32 @@
 .navbar-bg-color{
     background-color: #545b62;
     }
+/*.navbar-container{
+    position : relative;
+    padding-left: 0;
+    padding-right: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+}*/
+.navbar{
+    padding-top:10px;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    border: 0;
+    height: 50px;
+    width: 100%;
+    }
+.nav-link{
+    color: #fafafa;
+    border:1px solid;
+    border-radius:20px;
+    border-color:transparent;
+}
+/*
+.navbar-brand{
+    color: #fafafa;
+}*/
 /*nav a i{
     margin:0;
     padding-left:25px;
@@ -102,12 +128,13 @@ nav a i:hover {
     border-color: #fafafa;
 }/*-----------------------------------------------------------------*/
 /*---------code taken with Google Crome developer tool------------*/
+/*        black border for active element in navbar               */
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    /*color: #000913;
-    border: 2px solid;
+    color: #fafafa;
+    border: 0.5px solid;
     border-radius: 20px;
-    background-color: #c9d2da;
-    border-color: transparent;*/
+    background-color: transparent;
+    border-color: #fafafa;
     
 }
 /*------------------------end---------------------------*/
@@ -223,6 +250,12 @@ nav a i:hover {
 }
 /*---------------------------style header for mobile devices----*/
 @media screen and (max-width: 575px){
+    /*----------code to avoid the white right side band to show on mobile view ---------------*/
+    html, body{
+    width:100%;
+    overflow-x:hidden;
+    }
+    /*----------------------------------------------------------------------------------------*/
     .name-contacts-section{
         display: none;
     }
@@ -290,12 +323,12 @@ nav a i:hover {
     nav a i:hover{
         color: #000;
         text-decoration: none;
-        transition-duration: 0.5s;
-    }
-    .navbar-container a>i{
+        transition-duration: 0.2s;
+        }
+    /*.navbar-container a>i{
         width: 20px;
         height: 20px;
-    }
+    }*/
     .navbar-expand-sm .navbar-nav .nav-link {
         font-weight: 200;
         padding-right: 1rem;
@@ -306,16 +339,18 @@ nav a i:hover {
         margin-right: 5px;
         margin-top: 5px;
         background-color: #000;
-        
-    }
-    .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+        }
+    /*----------------------------------code taken with help of chrome dev tool----------------*/
+    /* shows border on active items on the navbar  in the mobile view*/
+    /*.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
         color: #fbf4f5;
-        border: 2px solid;
+        border: 1px solid;
         border-radius: 20px;
         border-color: #545b62;
         background-color: #000;
         margin-top: 4px;
-    }
+        }/*
+    /*--------------------------------------------------------------------------------------------*/
     .contacts-mobile-view-band{
         top: 50px;
         left: 0;    
@@ -325,50 +360,48 @@ nav a i:hover {
         font-size: 15px;
         margin: 0;
         padding: 10px;
-        background-color:rgba(0, 0, 0, 0.25);
-        position:absolute;
-    }
+        background-color:transparent;
+        position: absolute;
+        }
     .contacts-mobile-view-band p{
         margin-bottom: 8px;
         text-align: center;
         line-height: 20px;
         color: #fafafa;
-    }
+        }
     .contacts-mobile a{
         color: #fafafa;
-    }
+        }
     .contacts-mobile-view-band a:hover {
         text-decoration: none;
         border: 0.5px solid;
         border-radius: 20px;
         border-color: #fafafa;
-    }
+        }
     .contacts-mobile .btn {
         border-radius: 20px;
         color: #fafafa;
-    }
+        background-color:#545b62;
+        }
     .btn-success:hover {
         color: #fff;
-        border-color: rgb(109, 46, 5);
-        background-color: rgb(109, 46, 5);
-        transition-duration: 0.5s;
-    }
-    .footer-message h4{
-        font-size:18px;
-    }
-
+        border-color: #fafafa;
+        background-color: #fafafa;
+        transition-duration: 0.2s;
+        }
 }
 
 /*-----------------------------------Navbar style for tablet and desktop*/
-.navbar-container{
+/*.navbar-container{
     position : relative;
     padding-left: 0;
     padding-right: 0;
     left: 0;
     width: 100%;
     margin-top: 0;
-}
+}*/
 .navbar{
+    padding-top:10px;
     padding-bottom: 3px;
     margin-bottom: 0;
     border: 0;
@@ -376,12 +409,12 @@ nav a i:hover {
     width: 100%;
     
 }
-.nav-link{
+/*.nav-link{
     color: #fafafa;
 }
 .navbar-brand{
     color: #fafafa;
-}
+}*/
 /*---------------------------toggler navigation link-*/
 .navbar-toggler{
     border: 0;
@@ -473,6 +506,11 @@ nav a i:hover {
     height: 30px;
     text-align: center;
     color: #fafafa;
+}
+@media screen and (max-width:575px){
+    .footer-message h4{
+        font-size:18px;
+    }
 }
 /*------------------------styling hero image section index.html----*/
 /*--------------------code taken from whiskey drop project - code institute---------*/
