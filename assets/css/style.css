@@ -6,132 +6,155 @@
     }
 /*-----------------------------------Header for tablet and desktop style*/
 .header-container{
-    height: 170px;
+    height: auto;
     width: 100%;
     font-family: "Exo", sans-serif;
     font-weight: 400;
-    margin: 0;
-    padding: 20px 40px;
+    padding: 20px 150px;
     position: relative;
-}
+    color:#fafafa;
+    }
 .bg-color-header{
         background-color: #0c0c0c;
-        background-size: cover;
-}
-
-.name-contacts-section {
-    color: #fafafa;
-}
+    }
 .name-contacts-section a {
     color: #fafafa;
-}
+    }
 .restaurant-name {
     font-weight:600;
     letter-spacing: 18px;
     line-height: 20px;
     margin: 20px 0 15px 0;
-}
+    }
 .restaurant-name-subheader{
     font-weight: 300;
     letter-spacing: 15px;
-}
+    }
 .restaurant-name-subheader-h6{
     font-weight: 400;
     letter-spacing: 3px;
-}
+    }
 .contacts-list{
     margin: 20px;
     padding-left: 10%;
-}
+    text-align:center;
+    }
 .contacts-list h5{
     font-weight: 300;
     margin-top: 10px;
-}
+    }
 .contacts-list i{
     width: 20px;
     height: 20px;
-}
+    }   
 .contacts-mobile-view-band{
     display: none;
-}
+    }
 
 .name-contacts-section a:hover {
     color:gray;
     text-decoration: none;
-    transition-duration: 0.5s;
-}
-/*----------------------------------header and navbar hover element----------*/
+    transition-duration: 0.2s;
+    }
+/*----------------------------------navbar-------------------------------------*/
 .navbar-container{
     margin: 0;
     padding: 0;
-    top:0px;
+    width:100%;
     height: auto;
     font-family: "Exo", sans-serif;
     position: relative;
-    z-index: 1;
-}
-
+    }
 .navbar-bg-color{
-        background-color: #545b62;
+    background-color: #545b62;
+    }
+/*nav a i{
+    margin:0;
+    padding-left:25px;
+    padding-right:20px;
+    width:30px;
+    height:30px;
 }
 nav a i:hover {
-    color: #ffbf00;
+    color: #000;
     text-decoration: none;
     transition-duration: 0.5s;
-}
+    }*/
 .navbar-brand{
     display: none;
-}
+    }
+.navbar-brand {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    }
 .navbar-dark .navbar-brand:hover{
     text-decoration: none;
     transition-duration: 0.5s;
     color: #000;
-    
-}
-.navbar-dark .navbar-nav .nav-link:hover {
-    color:#000;
+    }
+/*----------code for the border when hover the navbar-----------*/
+.nav-link:hover {
     text-decoration: none;
-    transition-duration: 0.5s;
-}
+    color: #fafafa;
+    border: 1px solid;
+    border-radius:20px;
+    border-color: #fafafa;
+}/*-----------------------------------------------------------------*/
 /*---------code taken with Google Crome developer tool------------*/
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #000913;
+    /*color: #000913;
     border: 2px solid;
     border-radius: 20px;
     background-color: #c9d2da;
-    border-color: transparent;
+    border-color: transparent;*/
+    
 }
 /*------------------------end---------------------------*/
-.navbar i{
+/*.navbar i{
     width: 30px;
     height: 30px;
-}
+}*/
 .map-pin-navbar{
-    padding: 5px;
-    color: #fafafa;
-    display: none;
+   display: none;
 } 
-.navbar-expand-sm .navbar-nav .nav-link {
+/*.navbar-expand-sm .navbar-nav .nav-link {
     font-weight: 300;
     padding: 10px 20px;
     color: #fafafa;
-}
-/*-----------------------code taken using crome developer tools---------*/
+}*/
+/*-----------------------code taken with the help of crome developer tools---------*/
 .dropdown-item.active, .dropdown-item:active {
-    color: #fafafa;
+    background-color: #545b62;
+    color:#fafafa;
     text-decoration: none;
-    background-color: gray;
-}
+    }
 .dropdown-item:hover{
-    background-color: #7c98b5;
-}
+    background-color: #000;
+    color: #fafafa;
+    border-radius: 20px;
+    border: 0.5px solid;
+    border-color: #545b62;
+    }
 /*--------------------------------end-----------------------------------*/
 .navbar-nav .dropdown-menu{
-    width: fit-content;
-    background-color: #fdf6e5;
-}
+    background-color: #060606;
+    width: 50%;
+    border-radius: 20px;
+    float: right;
+    z-index: 1;
+    margin-right: 5px;
+    }
+.dropdown-item{
+    color: #fafafa;
+    text-align: center;
+    font-weight: 200;
+    border: 0.5px solid;
+    border-radius: 20px;
+    border-color: transparent;
+    }
 /*----------------------code taken with crome developer tool----------------*/
-.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+/*.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
     color: #fff;
     background-color: #d39e00;
     border-color: #d39e00;
@@ -144,87 +167,66 @@ nav a i:hover {
 }
 
 /*------------------adapt layout  header for screens smaller than 900px------*/
-@media screen and (max-width: 900px){
-    .contacts-list{
-        margin-top: 20px;
-        padding-left: 0;
-    }
-    .name-contacts-section{
-        padding: 0 20px;
-    }
+@media screen and (max-width: 976px){
     .header-container{
-        padding: 20px 40px ;
-    }
+        padding:20px 50px;
+        }
 }
 /*----------------------------adapt layout header for screens smaller than 775px*/
 @media screen and (max-width: 775px){
     .header-container{
         padding: 40px 20px;
-    }
+        }
     .header-container h6{
         font-size: 15px;
         margin-top:0;
-    }
+        }
     .restaurant-name {
         font-weight:300;
         letter-spacing: 10px;
         line-height: 15px;
         margin: 15px 0 10px 0;
-    }
+        }
     .restaurant-name-subheader{
         font-weight: 300;
         letter-spacing: 5px;
         font-size: 13px;
-    }
+        }
     .contacts-list{
         text-align: center;
         padding: 0;
         margin-top: 10px;
-    }
+        }
     .contacts-list h5{
         font-size: 15px;
         font-weight: 300;
         margin-top: 5px;
-    }
+        }
     .contacts-list i{
         width: 10px;
         height: 10px;
         margin-right: 3px;
-    }
-    .navbar{
-        left: 0px;
-        width: 100%;
-        position: relative;
-    }
+        }
     .nav-link{
         font-size: 15px;
-
-    }
-}
+        }
+}   
 @media screen and (max-width: 768px){
     .header-container{
         padding: 15px;
         height: 200px;
         position: relative;
-    }
-    .navbar-container{
-        margin: 0;
-        padding: 0;
-        top:0;
-        left: 0;
-        position: relative;
-    }
+        }
     .contacts-list{
         margin-bottom: 10px;
-    }
-    
+        }
 }
 /*---------------------------style header for mobile devices----*/
 @media screen and (max-width: 575px){
     .name-contacts-section{
         display: none;
     }
-    .header-container{
+    /*.header-container{
         margin: 0;
         padding: 0;
         position: relative;
@@ -267,17 +269,28 @@ nav a i:hover {
         position: fixed;
         background-color:#545b62;
         z-index: 1;
-    }
+        }
     .navbar-brand{
         display: inline;
-    }
-    a .nav-link{
+        margin:0;
+        padding:0;
+        }
+    /*a .nav-link{
         text-align: right;
-    }
+    }*/
     .map-pin-navbar{
         display: inline;
         color: #fafafa;
-        padding-bottom: 5px;
+        margin:0;
+        padding-left:25px;
+        padding-right:20px;
+        width:30px;
+        height:30px;    
+        }
+    nav a i:hover{
+        color: #000;
+        text-decoration: none;
+        transition-duration: 0.5s;
     }
     .navbar-container a>i{
         width: 20px;
@@ -287,8 +300,13 @@ nav a i:hover {
         font-weight: 200;
         padding-right: 1rem;
         padding-left: 2rem;
-        background-color: rgba(0,0,0,0.8);
         width: 50%;
+        float: right;
+        border-radius: 20px;
+        margin-right: 5px;
+        margin-top: 5px;
+        background-color: #000;
+        
     }
     .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
         color: #fbf4f5;
@@ -300,8 +318,8 @@ nav a i:hover {
     }
     .contacts-mobile-view-band{
         top: 50px;
-        right: 0;    
-        width: 50%;
+        left: 0;    
+        width: 100%;
         height: 100px;  
         display: block;
         font-size: 15px;
@@ -319,10 +337,11 @@ nav a i:hover {
     .contacts-mobile a{
         color: #fafafa;
     }
-    .contacts-mobile a:hover {
-        color:gray;
+    .contacts-mobile-view-band a:hover {
         text-decoration: none;
-        transition-duration: 1s;
+        border: 0.5px solid;
+        border-radius: 20px;
+        border-color: #fafafa;
     }
     .contacts-mobile .btn {
         border-radius: 20px;
@@ -347,7 +366,7 @@ nav a i:hover {
     padding-right: 0;
     left: 0;
     width: 100%;
-    margin-top: 00px;
+    margin-top: 0;
 }
 .navbar{
     padding-bottom: 3px;
