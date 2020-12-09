@@ -136,4 +136,7 @@ I receive inspiration and guidance for this project from:
 * Code Institute
 * W3schools Website
 * Stack Overflow
-* Bootstrap Library
+* Bootstrap Library  
+<span>Photo by <a href="https://unsplash.com/@armedshutter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ayo Ogunseinde</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
+<span>Photo by <a href="https://unsplash.com/@giancescon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Gian Cescon</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
+<span>Photo by <a href="https://unsplash.com/@brookecagle?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Brooke Cagle</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
