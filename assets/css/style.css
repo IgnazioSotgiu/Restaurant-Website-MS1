@@ -827,7 +827,9 @@ h3{
 /*------------------sizing images for the galley page--------------------------*/
 .gallery-container{
     width: 100%;
+    height: auto;
     padding: 0px 40px;
+    padding-bottom:50px;
 }
 .gallery-bg-color{
     background-color: gray;
@@ -847,7 +849,7 @@ h3{
 .hr-gallery{
     margin-top: 40px;
     margin-bottom: 40px;
-    background-color: #000000;
+    background-color: #545b62;
     width: 20%;
 }
 .hr-gallery-bottom{
@@ -856,7 +858,122 @@ h3{
     background-color: gray;
     width: 20%;
 }
-@media screen and (max-width: 575px){
+/*----------------------style for gallery tablet and desktop collage --------------------------*/
+/*-----code taken from CSS collage Gallery Tutorial  https://www.entheosweb.com/tutorials/css/collage_gallery.asp--*/
+@media screen and (min-width:767px){
+
+    #gallery-section{
+        width:700px;
+        height:500px;
+        margin: 60px auto;
+        position: relative;
+        border: 2px solid transparent;
+        border-radius:20px;
+    }
+    #gallery-section img:hover{
+        z-index: 999;
+        width:150%;
+        height:auto;
+        transition-duration:1.5s;
+    }
+    #image-1,#image-2,#image-3,#image-4,
+    #image-5,#image-6,#image-7,#image-8,#image-9{
+        width:300px;
+        height:auto;
+        padding:10px;
+        background :#eee;
+        border-radius:20px;
+        -moz-border-radius:20px;
+        -webkit-border-radius:20px;
+        position:absolute;
+    }
+    #image-1{
+        z-index:1;
+        top:-10px;
+        left:-30px;
+        transform:rotate(-20deg);
+        -o-transform:rotate(-20deg);
+        -moz-transform:rotate(-20deg);
+        -webkit-transform:rotate(-20deg);
+    }
+    #image-2{
+        z-index:2;
+        top:-10px;
+        right:-40px;
+        transform:rotate(10deg);
+        -o-transform:rotate(10deg);
+        -moz-transform:rotate(10deg);
+        -webkit-transform:rotate(10deg);
+    }
+    #image-3{
+        z-index:3;
+        top:150px;
+        left:-30px;
+        transform:rotate(10deg);
+        -o-transform:rotate(10deg);
+        -moz-transform:rotate(10deg);
+        -webkit-transform:rotate(10deg);
+    }
+    #image-4{
+        z-index:4;
+        top:300px;
+        left:-30px;
+        transform:rotate(-20deg);
+        -o-transform:rotate(-20deg);
+        -moz-transform:rotate(-20deg);
+        -webkit-transform:rotate(-20deg);
+    }
+    #image-5{
+        z-index:5;
+        top:-25px;
+        left:220px;
+        transform:rotate(-10deg);
+        -o-transform:rotate(-10deg);
+        -moz-transform:rotate(-10deg);
+        -webkit-transform:rotate(-10deg);
+    }
+    #image-6{
+        z-index:6;
+        top:330px;
+        right:150px;
+        transform:rotate(-10deg);
+        -o-transform:rotate(-10deg);
+        -moz-transform:rotate(-10deg);
+        -webkit-transform:rotate(-10deg);
+    }
+    #image-7{
+        z-index:7;
+        top:150px;
+        right:-30px;
+        transform:rotate(15deg);
+        -o-transform:rotate(15deg);
+        -moz-transform:rotate(15deg);
+        -webkit-transform:rotate(15deg);
+    }
+    #image-8{
+        z-index:8;
+        top:270px;
+        right:-40px;
+        transform:rotate(100deg);
+        -o-transform:rotate(100deg);
+        -moz-transform:rotate(100deg);
+        -webkit-transform:rotate(100deg);
+    }
+    #image-9{
+        z-index:9;
+        top:150px;
+        right:170px;
+        transform:rotate(10deg);
+        -o-transform:rotate(10deg);
+        -moz-transform:rotate(10deg);
+        -webkit-transform:rotate(10deg);
+    }
+    
+
+}
+/*--------------------------end----------------------------------------------*/
+/*----------------------style for gallery mobile view--------------------------*/
+@media screen and (max-width: 766px){
     .gallery-container{
         padding: 0 5px;
     }

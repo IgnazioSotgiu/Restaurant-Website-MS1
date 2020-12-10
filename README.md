@@ -124,6 +124,10 @@ The website was tested on Crome and Mozilla.
 <span>Photo by <a href="https://unsplash.com/@sonance?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Viktor Forgacs</a> on <a href="https://unsplash.com/s/photos/chocolate-cake?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
 <span>Photo by <a href="https://unsplash.com/@jorgezapatag?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jorge Zapata</a> on <a href="https://unsplash.com/s/photos/chef-kitchen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
 <span>Photo by <a href="https://unsplash.com/@lavievagabonde?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jasmin Schreiber</a> on <a href="https://unsplash.com/s/photos/tuna-salad?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
+<span>Photo by <a href="https://unsplash.com/@sebastiancoman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sebastian Coman Photography</a> on <a href="https://unsplash.com/@sebastiancoman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
+<span>Photo by <a href="https://unsplash.com/@jeshoots?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">JESHOOTS.COM</a> on <a href="https://unsplash.com/@jeshoots?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
+<span>Photo by <a href="https://unsplash.com/@alelmes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alasdair Elmes</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 
 ## favicon
 The favicon was downloaded from the website https://www.favicon-generator.org/search/---/Food.  
