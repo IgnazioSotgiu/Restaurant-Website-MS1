@@ -749,6 +749,11 @@ nav a i:hover {
     -o-background-size: cover;
     background-size: cover;
 }
+@media screen and (max-width:575px){
+    .wine-list-container{
+        padding:0;
+    }
+}
 .image-overlay{
     position:relative;
     background-color: rgba(0,0,0,0.8);
