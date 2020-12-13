@@ -12,16 +12,16 @@
 <title>Da Pino Restaurant Website</title>
 </head>
 <body>
-    <header class="container-fluid header-container bg-image bg-color-header">
-    <!-------------------------------Start name-contacts-section----------->
+   <!-- <header class="container-fluid header-container bg-image bg-color-header d-md-none">
+    <!-------------------------------Start name-contacts-section----------
         <div class="row name-contacts-section ">
             <div class="col-md-6 text-center">
                 <a href="index.html">
                     <h1 class=" text-uppercase restaurant-name">Da Pino</h1>
                     <h2 class="restaurant-name-subheader">Restaurant</h2>
-                    <h6 class="restaurant-name-subheader-h6">...It's a matter of taste...</h6>
+                    <h6 class="restaurant-name-subheader-h6">...It's a matter of taste...</h6>-->
                     <!-- <a href='https://pngtree.com/free-backgrounds'>free background photos frompngtree.com</a>-->
-                </a>
+                <!--</a>
             </div>
             
             <div class="col-md-6 ">
@@ -32,11 +32,11 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header>-->
     <!-------------------------------End name-contacts-section----------->
     <!-------------------------------start navbar-container----------->
-    <!-- Navbar toggle navigation structure taken from Whiskey Drop Landing Page and bootstrap library. bootstrap Code Institute-->
-    <div class="container-fluid navbar-container">
+    <!-- Navbar toggle navigation structure taken from Whiskey Drop Landing Page and bootstrap library. bootstrap Code Institute
+    <div class="container-fluid navbar-container d-md-none">
         <nav class="navbar navbar-dark navbar-expand-sm navbar-bg-color ">    
                 <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"     data-target="#navbarRestaurantDropdown" aria-controls="navbarRestaurantDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -64,7 +64,7 @@
     </div>    
     <!-------------------------------end navbar-container----------->
     <!-------------------------------phone - email mobile view section----------->
-    <div class=" contacts-mobile-view-band ">
+    <!--<div class=" contacts-mobile-view-band d-md-none ">
                 <div class="contacts-mobile">
                     <div>
                         <p> 01 324 6598</p>
@@ -72,16 +72,16 @@
                     <div >
                         <p><a href="contact.html" target="_blank">dapino@gmail.com</a></p>
                     </div>
-                    <!--button code taken from bootstrap library-->
+                    <!--button code taken from bootstrap library
                     <div class="d-flex justify-content-center">
                     <a href="012345678"></a><button type="button" class="btn btn-success">Call Now</button>
                     </div>
                 </div>
-    </div>
+    </div>-->
     <section>
         <div class="container-fluid contact-container contact-container-bg-color menu-container-bg-image">            
             <div class="jumbotron">
-            <h3>Please tell us what do you need. <br> Thank You</h3>
+            <h3 class="jumbotron-header">Da Pino Restaurant <br><br>Please tell us what do you need</h3>
                 <form>
                     <div class="row">
                         <div class="enquiry-form-item col-md-6">
@@ -90,24 +90,25 @@
                             <input type="text" class="full-name-input" id="fullname" placeholder="">
                         </div>
                         <div class="enquiry-form-item col-md-6">
-                            <label for="email">email address</label>
+                            <label for="email">Email Address</label>
                             <br>
                             <input type="email" class="email-input" id="email" placeholder="">
                         </div>
-                        <div class="enquiry-form-item col-12">
+                        <div class="enquiry-container col-12">
                             <label for="request-enquiry">Request / Enquiry</label>
                             <br>
                             <!-- line of code supported by w3school website-->   
                              <textarea class="request" id="request-enquiry" name="subject" placeholder="" style="height:200px"></textarea>
                         </div>
                     </div>
-                    <a href=""></a><button type="button" class="btn btn-success">Send</button>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                        Send</button>
                 </form>
             </div>
         </div>
     </section>
-    <footer>
-        <div class="container-fluid footer-container footer-container-bg-color">
+    <!--<footer>
+        <div class="container-fluid footer-container footer-container-bg-color d-md-none">
             <div class="row">
                 <div class="col-12 footer-message">
                     <h4>Check Us Out On Social Media</h4>
@@ -126,22 +127,27 @@
                     <a href="https://tripadvisor.com" target="_blank"><i class="fab fa-tripadvisor"></i></a>
                 </div>
                 <hr class="hr-footer">
-                <div class="contacts-footer">
-                    <a href="https://www.google.com/maps/place/Spitalfields/@53.3398205,-6.2778856,17z/data=!3m1!4b1!4m5!3m4!1s0x48670d3113db4349:0x3e89ab39f62b537d!8m2!3d53.3398173!4d-6.2756969" target="_blank"><i class="fas fa-map-marker-alt"></i> 25, The Coombe, Dublin</a>
-                    <p> 01 324 6598</p>
-                    <p><a href="contact.html" target="_blank">dapino@gmail.com</a></p>
-                </div>
-                <hr class="hr-footer">
-                <div class="credit-card-icon">
-                    <p><i class="fab fa-cc-amex"></i><i class="fab fa-cc-visa"></i><i class="fab fa-cc-mastercard"></i></p>
-                </div>
+                
             
             </div>    
 
             </div>
         </div>
     
-    </footer>
+    </footer>-->
+    <!-- Modal  taken from bootstrap library-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"           aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Your Request has been send. <br>Thank You</h5>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-success" href="index.html" role="button">Home</a>
+                </div>
+            </div>
+        </div>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

@@ -208,10 +208,10 @@ nav a i:hover {
     border-color: transparent;
     }
 /*----------------------code taken with crome developer tool----------------*/
-/*.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
-    color: #fff;
-    background-color: #d39e00;
-    border-color: #d39e00;
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #000;
+    background-color: #fafafa;
+    border-color: #fafafa;
 }
 .btn-success.focus, .btn-success:focus {
     color: #fff;
@@ -1000,24 +1000,52 @@ h3{
     }
 }
 /*------------------------contact page form style--------------------*/
-.contact-container-bg-color{
-    background-color: gray;
+.contact-container{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .jumbotron{
+    margin: 50px auto;
+    max-width: 500px;
+    max-height: auto;
+    border: 2px solid #d89402;
+    border-radius: 20px;
     text-align: center;
     background-color: transparent;
-    color: #fafafa;
-    margin: 0;
-    height: auto;
+    color: #fafafa;    
 }
-.enquiry-form-item{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.jumbotron-header{
+    padding: 10px;
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+.jumbotron label{
+    font-weight: 200;
+}
+.enquiry-form-item .col-6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.enquiry-container{
+    padding-top: 20px;
 }
 .request{
-    width: 60%;
+    width: 450px;
     height: 200px;
+    border-radius: 20px;
 }
+.modal-header{
+    display: block;
+    text-align: center;
+}
+.modal-footer{
+    display: block;
+    text-align: center;
+}
+
 @media screen and (max-width: 900px){
     .enquiry-form-item{
     margin-top: 15px;
@@ -1026,5 +1054,10 @@ h3{
     .request{
         width: 90%;
         height: 300px;
+    }
+}
+@media (min-width: 576px){
+    .jumbotron {
+        padding: 25px;
     }
 }
