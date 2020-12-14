@@ -4,10 +4,8 @@
     padding: 0;
     font-family: "Exo",sans-serif;
     }
-
-/*-------------------------------------Top banner style------------------*/
+/*-------------------------------------Top banner ------------------------------------*/
 .top-banner{
-    top:0;
     width:100%;
     height:50px;
     padding-left:5px;
@@ -31,7 +29,7 @@
 .credit-card-icons{
     padding-top:20px;
 }    
-/*-----------------------------------Header for tablet and desktop style*/
+/*-----------------------------------Header for tablet and desktop --------------------------*/
 .header-container{
     height: auto;
     width: 100%;
@@ -73,13 +71,13 @@
 .contacts-list i{
     width: 20px;
     height: 20px;
+    font-size: 20px;
     }   
 .contacts-mobile-view-band{
     display: none;
     }
-
 .name-contacts-section a:hover {
-    color:gray;
+    color:rgb(202, 199, 199);
     text-decoration: none;
     transition-duration: 0.2s;
     }
@@ -95,14 +93,6 @@
 .navbar-bg-color{
     background-color: #545b62;
     }
-/*.navbar-container{
-    position : relative;
-    padding-left: 0;
-    padding-right: 0;
-    left: 0;
-    width: 100%;
-    margin-top: 0;
-}*/
 .navbar{
     padding-top:10px;
     padding-bottom: 3px;
@@ -111,28 +101,15 @@
     height: 50px;
     width: 100%;
     }
+/*------set border for nav link to transparent for later hover property------*/
 .nav-link{
     color: #fafafa;
     border:1px solid;
     border-radius:20px;
     border-color:transparent;
 }
-/*
-.navbar-brand{
-    color: #fafafa;
-}*/
-/*nav a i{
-    margin:0;
-    padding-left:25px;
-    padding-right:20px;
-    width:30px;
-    height:30px;
-}
-nav a i:hover {
-    color: #000;
-    text-decoration: none;
-    transition-duration: 0.5s;
-    }*/
+/*------------------------end----------------*/
+/*-------navbar-brand and map-pin to be displayed only on mobile devices------*/
 .navbar-brand{
     display: none;
     }
@@ -145,6 +122,9 @@ nav a i:hover {
     text-decoration: none;
     transition-duration: 0.5s;
     color: #000;
+    }
+.map-pin-navbar{
+   display: none;
     }
 /*----------code for the border when hover the navbar-----------*/
 .nav-link:hover {
@@ -162,22 +142,10 @@ nav a i:hover {
     border-radius: 20px;
     background-color: #000;
     border-color: #fafafa;
-    
-}
+    }
 /*------------------------end---------------------------*/
-/*.navbar i{
-    width: 30px;
-    height: 30px;
-}*/
-.map-pin-navbar{
-   display: none;
-} 
-/*.navbar-expand-sm .navbar-nav .nav-link {
-    font-weight: 300;
-    padding: 10px 20px;
-    color: #fafafa;
-}*/
 /*-----------------------code taken with the help of crome developer tools---------*/
+/*-----Dropdown menu elements active and hover properties-----------*/
 .dropdown-item.active, .dropdown-item:active {
     background-color: #545b62;
     color:#fafafa;
@@ -191,6 +159,7 @@ nav a i:hover {
     border-color: #545b62;
     }
 /*--------------------------------end-----------------------------------*/
+/*----styling dropdown menu on mobile view-------*/
 .navbar-nav .dropdown-menu{
     background-color: #060606;
     width: 50%;
@@ -207,26 +176,33 @@ nav a i:hover {
     border-radius: 20px;
     border-color: transparent;
     }
-/*----------------------code taken with crome developer tool----------------*/
+/*----------------------btn-success--------------------------*/
+.btn-success{
+    background-color:#545b62;
+    border-color: #545b62; 
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.btn-success:hover{
+    transition-duration: 0.5s;
+    background-color: #fafafa;
+    border-radius: 20px;
+    color: #000;
+    border-color: transparent; 
+}
+/*----------------------active code taken with crome developer tool----------------*/
 .btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
     color: #000;
     background-color: #fafafa;
     border-color: #fafafa;
-}
-.btn-success.focus, .btn-success:focus {
-    color: #fff;
-    background-color: #d39e00;
-    border-color: #d39e00;
-    box-shadow: none;
-}
-
+    }
 /*------------------adapt layout  header for screens smaller than 900px------*/
 @media screen and (max-width: 976px){
     .header-container{
         padding:20px 50px;
         }
-}
-/*----------------------------adapt layout header for screens smaller than 775px*/
+    }
+/*------------------adapt layout header for screens smaller than 775px--------*/
 @media screen and (max-width: 775px){
     .header-container{
         padding: 40px 20px;
@@ -274,6 +250,9 @@ nav a i:hover {
     .contacts-list{
         margin-bottom: 10px;
         }
+    .contacts-list h5 i{
+        margin-right: 10px;
+        }
 }
 /*---------------------------style header for mobile devices----*/
 @media screen and (max-width: 575px){
@@ -286,44 +265,6 @@ nav a i:hover {
     .name-contacts-section{
         display: none;
     }
-    /*.header-container{
-        margin: 0;
-        padding: 0;
-        position: relative;
-    }
-    /*.header-container{
-        padding: 0px;
-    }
-    .header-container h6{
-        font-size: 15px;
-        margin-top:0;
-    }
-    .restaurant-name {
-    font-weight:300;
-    letter-spacing: 10px;
-    line-height: 15px;
-    margin: 15px 0 10px 0;
-    }
-    .restaurant-name-subheader{
-    font-weight: 300;
-    letter-spacing: 5px;
-    font-size: 13px;
-    }
-    .contacts-list{
-        text-align: center;
-        padding: 0;
-        margin-top: 10px;
-    }
-    .contacts-list h5{
-        font-size: 15px;
-        font-weight: 300;
-        margin-top: 5px;
-    }
-    .contacts-list i{
-    width: 10px;
-    height: 10px;
-    margin-right: 3px;
-    }*/
     .navbar {
         top: 0;
         position: fixed;
@@ -335,9 +276,6 @@ nav a i:hover {
         margin:0;
         padding:0;
         }
-    /*a .nav-link{
-        text-align: right;
-    }*/
     .map-pin-navbar{
         display: inline;
         color: #fafafa;
@@ -352,10 +290,7 @@ nav a i:hover {
         text-decoration: none;
         transition-duration: 0.2s;
         }
-    /*.navbar-container a>i{
-        width: 20px;
-        height: 20px;
-    }*/
+    /*code taken with chrome dev tool-------styling nav-link for mobile devices*/
     .navbar-expand-sm .navbar-nav .nav-link {
         font-weight: 200;
         padding-right: 1rem;
@@ -367,17 +302,8 @@ nav a i:hover {
         margin-top: 5px;
         background-color: #000;
         }
-    /*----------------------------------code taken with help of chrome dev tool----------------*/
-    /* shows border on active items on the navbar  in the mobile view*/
-    /*.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-        color: #fbf4f5;
-        border: 1px solid;
-        border-radius: 20px;
-        border-color: #545b62;
-        background-color: #000;
-        margin-top: 4px;
-        }/*
-    /*--------------------------------------------------------------------------------------------*/
+    /*---------------------------------end---------------------------------*/
+    /*------------------styling contacts under navbar on mobile view--------*/    
     .contacts-mobile-view-band{
         top: 50px;
         left: 0;    
@@ -405,17 +331,17 @@ nav a i:hover {
         border-radius: 20px;
         border-color: #fafafa;
         }
-    .contacts-mobile .btn {
+    /*.btn-success {
         border-radius: 20px;
         color: #fafafa;
         background-color:#545b62;
-        }
-    .btn-success:hover {
+        }*/
+    /*.btn-success:hover {
         color: #fff;
         border-color: #fafafa;
         background-color: #fafafa;
         transition-duration: 0.2s;
-        }
+        }*/
 }
 
 /*-----------------------------------Navbar style for tablet and desktop*/
@@ -441,9 +367,10 @@ nav a i:hover {
 .navbar-brand{
     color: #fafafa;
 }*/
-/*---------------------------toggler navigation link-*/
+/*---------------------------toggler navigation link style ------------------------*/
 .navbar-toggler{
     border: 0;
+    border-color: transparent;
     background-color:transparent;
     }
 .navbar-toggler:hover{
@@ -455,10 +382,10 @@ nav a i:hover {
     width: 100%;
     height: 300px;
     position: relative;
-}
+    }
 .footer-container-bg-color{
     background-color: #0c0c0c;
-}
+    }
 .footer-message{
     font-family: "Exo", sans-serif;
     font-weight: 200;
@@ -466,97 +393,56 @@ nav a i:hover {
     text-align: center;
     text-size-adjust: 80%;
     color: #fafafa;
-}   
+    }   
 .social-media{
     width: 100%;
     margin:0;
     padding:0;
-    
-}
+    }
 .col-3{
     padding-left:0;
     padding-right:0;
-}
+    }
 .social-media a{
     padding:50px 0;
     color: #fafafa;
     text-align:center;
-    
-}
+    }
 .social-media i{
     width:25px;
     height:25px;
     text-align:center;
     font-size:25px;
-}
-.social-media i :hover{
-    background-color:#000;
-}
-.contacts-footer{
-    padding: 20px;
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-.contacts-footer a, p{
-    color: #fafafa;
-    text-align: center;
-}
-.contacts-footer p{
-    margin-bottom: 0px;
-}
-/*---------this code was taken from bootstrap library*/
+    }
+/*---------this code was taken from bootstrap library------------------------*/
+/*-----------------center social media icons---------------------------------*/
 .row-center{
     text-align: center;
-}
+    }
 .col-center{
     display: inline;
     float: none;
-}
+    }
 /*---------this code was taken from bootstrap library --End--*/
 .social-media a>i:hover{
     color:#ffbf00;
     text-decoration: none;
     transition-duration: 0.5s
-}
-.social-media a:hover{
-    text-decoration: none;
-    transition-duration: 0.5s;
-    color:gray;
     }
-.hr-footer{
-    width: 50%;
-    height: 0.2px;
-    background-color: #fafafa;
-    margin-top: 50px;
-    margin-bottom: 20px;
-
-}
-.credit-card-icon{
-    width: 100%
-}
-.credit-card-icon i{
-    padding: 15px 20px 0;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    color: #fafafa;
-}
 @media screen and (max-width:575px){
     .footer-message h4{
         font-size:18px;
+        }
     }
-}
 /*------------------------styling hero image section index.html----*/
 /*--------------------code taken from whiskey drop project - code institute---------*/
-
 .specials-container{
     margin: 0;
     padding: 0;
     width: 100%;
     height: 720px;
     position: relative;  
-}
+    }
 .hero-image{
     height: 720px;
     background: url("../images/vishwas-katti-UrQ_BS9bLXQ-unsplash.jpg") no-repeat bottom right ; 
@@ -564,7 +450,7 @@ nav a i:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+    }
 .special-pre-theatre{
     top: 30px;
     left: 10%;
@@ -575,29 +461,15 @@ nav a i:hover {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 20%;
     text-align: center;
-}
+    }
 .specials-container a{
     color: #fafafa;
-}
+    }
 .specials-container a:hover{
-    color: grey;
+    color: rgb(202, 199, 199);
     text-decoration: none;
-    transition-duration: 0.5s;
-}
-.btn-success{
-    background-color:#545b62;
-    border-color: #545b62; 
-    margin-top: 10px;
-    border-radius: 20px;
-}
-.btn-success:hover{
-    transition-duration: 0.5s;
-    background-color: #fafafa;
-    border-radius: 20px;
-    color: #000;
-    border-color: transparent; 
-}
-
+    transition-duration: 0.2s;
+    }
 .special-sunday{
     top: 60px;
     left: 10%;
@@ -608,12 +480,11 @@ nav a i:hover {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 20%;
     text-align: center;
-}
+    }
 .special-sunday p{
     color: #fafafa;
     margin-bottom: 0px;
-    
-}   
+    }   
 .special-take-away{
     top: 90px;
     left: 10%;
@@ -624,11 +495,11 @@ nav a i:hover {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 20%;
     text-align: center;
-}
+    }
 @media screen and (max-width: 575px) {
     .specials-container{
         height: 510px;
-    }
+        }
     .special-pre-theatre{
         top: 0;
         left: 0;
@@ -639,7 +510,7 @@ nav a i:hover {
         background-color: rgba(0, 0, 0, 0.8);
         border-radius: 0%;
         text-align: center;
-    }
+        }
     .special-sunday{
         top: 30px;
         left: 0;
@@ -650,7 +521,7 @@ nav a i:hover {
         background-color: rgba(0, 0, 0, 0.8);
         border-radius: 0%;
         text-align: center;
-    }
+        }
     .special-take-away{
         top: 60px;
         left: 0;
@@ -661,60 +532,60 @@ nav a i:hover {
         background-color: rgba(0, 0, 0, 0.8);
         border-radius: 0%;
         text-align: center;
+        }
     }
-}
 /*----------------------------------style review section index.html-------------------*/
 .reviews-container{
     padding:50px 50px;
-}
+    }
 .reviews-container-bg-color{
     background-color: #c7d2dc;
-}
+    }   
 .reviews-container-message{
     color: #000000;
     text-align: center;
     padding: 20px 20px 40px;
-}
+    }
 .review-image{
     width: 100px;
     height:100px;
     overflow: hidden;
     text-align:center;
     border-radius:50%;
-}
+    }
 .hr-reviews{
     background-color: #000000;
     width: 80%;
     height: 0.5px;
-}
+    }
 .review-header{
     padding: 30px 15px;
     text-align: center;
     font-weight: 500;
     font-size: 15px;
     color: #000000;
-}
+    }
 .review{
     text-align: center;
-}
+    }
 .reviews-container i{
     color: #000000;
-}
+    }
 .reviews-container p{
     color: #000;
     padding: 30px;
-}
+    }
 @media screen and (max-width: 575px){
     .reviews-container{
         padding: 20px 5px;
-    }
+        }
     .reviews-container-message h2{
         font-size: 20px;
-    }
+        }
     .hr-reviews{
         width: 60%;
+        }
     }
-}
 /*--------------------------Styling a-la-carte.html/group-meny.html/pre-theatre.html/wine-list.html menu section----------------*/
 .menu-container{
     font-family: "Exo", sans-serif;
@@ -722,10 +593,7 @@ nav a i:hover {
     height: auto;
     padding:50px;
     color: #fafafa;
-}
-.menu-container-bg-color{
-    background-color: #333;
-}
+    }
 .menu-container-bg-image{
     height: auto;
     background: url("../images/black-texture.jpg") no-repeat bottom right ; 
@@ -733,14 +601,14 @@ nav a i:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+    }
 .wine-list-container{
     font-family: "Exo", sans-serif;
     width: 100%;
     height: auto;
     padding:20px 200px;
     color: #fafafa;
-}
+    }
 .wine-list-bg-image{
     height: auto;
     background: url("../images/arisa-chattasa-Hi0eZI8LSYU-unsplash.jpg") no-repeat bottom right ; 
@@ -748,125 +616,100 @@ nav a i:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+    }
 @media screen and (max-width:575px){
     .wine-list-container{
         padding:0;
+        }
     }
-}
 .image-overlay{
     position:relative;
     background-color: rgba(0,0,0,0.8);
-    
-}
+    }
 .menu-header{
     text-align: center;
     padding: 20px;
-}
+    }
 h3{
     padding-bottom: 15px;
     text-align: center;
-}
+    }
 .menu-title p{
     font-size: 15px;
     padding-bottom: 20px;
-}
+    }
 .download-link{
     font-size: 15px;
-}
+    }
 .download-link a, i{
     color: #fafafa;
-}
+    }
 .download-link :hover{
     border: 0.5px solid;
     border-color: #fafafa;
     color: #fafafa;
     text-decoration: none;
     transition-duration: 0.5s;
-}
+    }
 .hr-top-menu{
     width: 50%;
     background-color: #fafafa;
     height: 0.2px;
     margin-top: 40px;
     margin-bottom: 40px;
-}
+    }
 .hr-mid-menu{
     width: 30%;
     background-color: #fafafa;
-    height: 0.2px;
     margin-top: 30px;
     margin-bottom: 30px;
-}
+    }
 .food-items ul{
     list-style-type: none;
     padding: 10px;
-}
+    }
 .food-items h4, li{
     text-align: center;
     text-decoration: none;
     padding-bottom: 5px;
     text-transform: capitalize;
-}
+    }
 @media screen and (max-width: 575px){
     menu.container{
         padding:20px 10px;
-    }
+        }
     .menu-header{
         padding: 0;
-    }
+        }
     .download-link{
         font-size: 10px;
-    }
-    .download-link a:hover{
+        }
+    /*.download-link a:hover{
         border: 0.5px solid;
         border-color: #fafafa;
         color: #fafafa;
         text-decoration: none;
         transition-duration: 0.5s;
-    }
+        }*/
     .food-items h4, li{
         font-size: 90%;
+        }
     }
-}
-/*------------------sizing images for the galley page--------------------------*/
+/*------------------sizing images for the galley page mobile view--------------------------*/
 .gallery-container{
     width: 100%;
     height: auto;
     padding: 0px 40px;
     padding-bottom:50px;
-}
-.gallery-bg-color{
-    background-color: gray;
-}
+    }
 .gallery-message h3{
     color:#fafafa;
     padding-top: 40px;
     padding-bottom: 40px; 
-}
-.gallery-image {
-    max-width: 500px ;
-    height: auto;
-    border-radius: 8px;
-    display: block;
-    margin: auto;
-}
-.hr-gallery{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    background-color: #545b62;
-    width: 20%;
-}
-.hr-gallery-bottom{
-    margin-top: 40px;
-    margin-bottom: 0;
-    background-color: gray;
-    width: 20%;
-}
+    }
 /*----------------------style for gallery tablet and desktop collage --------------------------*/
 /*-----code taken from CSS collage Gallery Tutorial  https://www.entheosweb.com/tutorials/css/collage_gallery.asp--*/
 @media screen and (min-width:767px){
-
     #gallery-section{
         width:700px;
         height:500px;
@@ -981,24 +824,40 @@ h3{
 @media screen and (max-width: 766px){
     .gallery-container{
         padding: 0 5px;
-    }
+        }
     .gallery-message h3{
         font-size: 20px;
         padding-top: 20px;
         padding-bottom: 20px;
-    }
-    .gallery-image{
-        max-width: 100%;
+        }
+    .gallery-image {
+        max-width: 500px ;
         height: auto;
-    }
+        border-radius: 8px;
+        display: block;
+        margin: auto;
+        }
     .hr-gallery{
         margin-top: 30px;
         margin-bottom: 30px;
-    }
+        background-color: #545b62;
+        width: 20%;
+        }
     .hr-gallery-bottom{
         margin-top: 30px;
+        margin-bottom: 0;
+        background-color: gray;
+        width: 20%;
+        }
+
+    .hr-gallery{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        }
+    .hr-gallery-bottom{
+        margin-top: 30px;
+        }
     }
-}
 /*------------------------contact page form style--------------------*/
 .contact-container{
     width: 100%;
@@ -1006,7 +865,7 @@ h3{
     position: absolute;
     top: 0;
     left: 0;
-}
+    }
 .jumbotron{
     margin: 50px auto;
     max-width: 500px;
@@ -1016,35 +875,35 @@ h3{
     text-align: center;
     background-color: transparent;
     color: #fafafa;    
-}
+    }
 .jumbotron-header{
     padding: 10px;
     padding-bottom: 20px;
     font-weight: 200;
-}
+    }
 .jumbotron label{
     font-weight: 200;
-}
+    }
 .enquiry-form-item .col-6{
     margin-top: 20px;
     margin-bottom: 20px;
-}
+    }
 .enquiry-container{
     padding-top: 20px;
-}
+    }
 .request{
     width: 450px;
     height: 200px;
     border-radius: 20px;
-}
+    }
 .modal-header{
     display: block;
     text-align: center;
-}
+    }
 .modal-footer{
     display: block;
     text-align: center;
-}
+    }
 
 @media screen and (max-width: 900px){
     .enquiry-form-item{
