@@ -196,6 +196,12 @@
     background-color: #fafafa;
     border-color: #fafafa;
     }
+.btn-success:focus {
+    color: #fff;
+    background-color: #434a50;
+    border-color: #fafafa;
+    box-shadow:none;
+    }
 /*------------------adapt layout  header for screens smaller than 900px------*/
 @media screen and (max-width: 976px){
     .header-container{
@@ -465,8 +471,11 @@
 .specials-container a{
     color: #fafafa;
     }
+.specials-container p{
+    color: #fafafa;
+}
 .specials-container a:hover{
-    color: rgb(202, 199, 199);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition-duration: 0.2s;
     }
