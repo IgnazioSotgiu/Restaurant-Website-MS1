@@ -35,7 +35,12 @@ Other features that we get from the User Stories will be implemented in the futu
 
 Find in the attached document [User Stories pdf](assets/docs/user-stories.pdf) the trade off graph, with a list of user stories order of importance and viability.
 
-[Here](assets/docs/wireframes.pdf) we can see the Wireframes of the website pages.
+# Wireframes
+* [index.html](assets/docs/wireframes/index.html-wireframes.pdf)
+* [a-la-carte.html pre-theatre.html group-menu.html](assets/docs/wireframes/food-menu-wireframes.pdf)
+* [wine-list.html](assets/docs/wireframes/wine-list.html-wireframes.pdf)
+* [gallery.html](assets/docs/wireframes/gallery.html-wireframes.pdf)
+* [contact.html](assets/docs/wireframes/contact.html-wireframes.pdf)
 
 ### Website structure
 
