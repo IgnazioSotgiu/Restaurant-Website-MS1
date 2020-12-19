@@ -108,6 +108,40 @@ This website was developed using
 * Microsoft Excel.
 * Balsamiq for wireframes.
 # Testing:
+## links  
+* by clicking on the Restaurant name and headings the user is brought back to the homepage.
+* click on the address and map pin opens a new tab in [google maps](https://www.google.com/maps/place/Spitalfields/@53.3398205,-6.2778856,17z/data=!3m1!4b1!4m5!3m4!1s0x48670d3113db4349:0x3e89ab39f62b537d!8m2!3d53.3398173!4d-6.2756969) with the exact location of the Restaurant.
+* click on the email address in the header links to the contact page with the email form.
+* navigation bar in the desktop and tablet is below the header have links to all the website pages. In the mobile screen it's fixed on top of the page with all the menu links in a toggle menu.
+* home links to the homepage.
+* dropdown food menu open choice of three menus, a la certe, pre theatre, group menu.
+* a la carte opens the a-la-carte.html page.
+* pre theatre opens the pre-theatre.html page.
+* group menu opens the group-menu.html page.
+* wine list opens the wine-list.html page.
+* contact opens the contact.html page.
+* on the mobile view the map pin icon is linked to google maps and open a new tab showing the restaurant location.
+* on the mobile view the contact information are below the navbar and centered. The email address is linked to the contact.html page.
+* the links on each message on the special section in index.html are opening a new tab with the contact page email form.
+* in desktop and tablet view the message are in three small message container on the left side. In mobile view the messages take the whole width of the screen.
+* the review section is displayed below the specials section and contains three reviews. On tablet and desktop screens the rewiews are displayed one beside the other, with the tablet screen only displaying two reviews, in the mobile view the three reviews are displayed vertically and they take the full width of the screen.
+* each review contain a picture of the person who write the review, a review titol, the review message and the reviewer name.
+* in the footer there in a message in the center of the screen.
+* below the message four links to scial media websites are displayed orizontally in the center.
+* facebook icon links to [facebook home page](https://www.facebook.com/)
+* twitter icon links to [twitter home page](https://twitter.com/)
+* instagram icon links to [instagram home page](https://instagram.com/)
+* tripadvisor icon links to [tripadvisor home page](https://www.tripadvisor.com/)
+* all social media links change color from #fafafa to #ffbf00 when hover.
+* in a-la-carte.html the menu informations are displayed in a single column in the center of the screen. The [dowmolad the menu here]() link opens a new tab with a printable version of the menu in pdf format.
+* in pre-theatre.html the menu informations are displayed in a single column in the center of the screen. The [dowmolad the menu here]() link opens a new tab with a printable version of the menu in pdf format.
+* in group-menu.html the menu informations are displayed in a single column in the center of the screen. The [dowmolad the menu here]() link opens a new tab with a printable version of the menu in pdf format.
+* wine-list.html the menu informations are displayed in two columns for desktop and tablet screens and in a single colum in mobile screens. The [dowmolad the menu here]() link opens a new tab with a printable version of the menu in pdf format.
+* in gallery.html on desktop and tablet screens the gellery display in image collage with a zoom in effect when hover. on mobile view the images will display on a single column taking the full width of the screen.
+* in contact.html the send button is linked to a modal, with a message that the request has been sent.
+* the home button in the modal is linked back to the home page.
+
+
 All the links between the pages have been tested, also the links ro social media tripadvisor and googl maps.
 The website was tested on Crome and Mozilla. 
   
