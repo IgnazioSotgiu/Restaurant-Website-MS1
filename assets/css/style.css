@@ -615,7 +615,7 @@
     font-family: "Exo", sans-serif;
     width: 100%;
     height: auto;
-    padding:20px 200px;
+    padding:20px 15%;
     color: #fafafa;
     }
 .wine-list-bg-image{
@@ -729,7 +729,7 @@ h3{
     }
     #gallery-section img:hover{
         z-index: 999;
-        width:150%;
+        width:600px;
         height:auto;
         transition-duration:1.5s;
     }
