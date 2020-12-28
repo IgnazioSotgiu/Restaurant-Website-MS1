@@ -713,6 +713,10 @@ h3{
         width:600px;
         height:auto;
         transition-duration:1.5s;
+        transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -webkit-transform:rotate(0deg);
     }
     #image-1,#image-2,#image-3,#image-4,
     #image-5,#image-6,#image-7,#image-8,#image-9{
@@ -728,7 +732,7 @@ h3{
     #image-1{
         z-index:1;
         top:-10px;
-        left:-30px;
+        left:-100px;
         transform:rotate(-20deg);
         -o-transform:rotate(-20deg);
         -moz-transform:rotate(-20deg);
@@ -737,7 +741,7 @@ h3{
     #image-2{
         z-index:2;
         top:-10px;
-        right:-40px;
+        right:-110px;
         transform:rotate(10deg);
         -o-transform:rotate(10deg);
         -moz-transform:rotate(10deg);
@@ -745,8 +749,8 @@ h3{
     }
     #image-3{
         z-index:3;
-        top:150px;
-        left:-30px;
+        top:180px;
+        left:-120px;
         transform:rotate(10deg);
         -o-transform:rotate(10deg);
         -moz-transform:rotate(10deg);
@@ -754,8 +758,8 @@ h3{
     }
     #image-4{
         z-index:4;
-        top:300px;
-        left:-30px;
+        top:370px;
+        left:-120px;
         transform:rotate(-20deg);
         -o-transform:rotate(-20deg);
         -moz-transform:rotate(-20deg);
@@ -764,7 +768,7 @@ h3{
     #image-5{
         z-index:5;
         top:-25px;
-        left:220px;
+        left:200px;
         transform:rotate(-10deg);
         -o-transform:rotate(-10deg);
         -moz-transform:rotate(-10deg);
@@ -772,8 +776,8 @@ h3{
     }
     #image-6{
         z-index:6;
-        top:330px;
-        right:150px;
+        top:360px;
+        right:190px;
         transform:rotate(-10deg);
         -o-transform:rotate(-10deg);
         -moz-transform:rotate(-10deg);
@@ -782,7 +786,7 @@ h3{
     #image-7{
         z-index:7;
         top:150px;
-        right:-30px;
+        right:-100px;
         transform:rotate(15deg);
         -o-transform:rotate(15deg);
         -moz-transform:rotate(15deg);
@@ -790,17 +794,17 @@ h3{
     }
     #image-8{
         z-index:8;
-        top:270px;
-        right:-40px;
-        transform:rotate(100deg);
-        -o-transform:rotate(100deg);
-        -moz-transform:rotate(100deg);
-        -webkit-transform:rotate(100deg);
+        top:330px;
+        right:-100px;
+        transform:rotate(10deg);
+        -o-transform:rotate(10deg);
+        -moz-transform:rotate(10deg);
+        -webkit-transform:rotate(10deg);
     }
     #image-9{
         z-index:9;
-        top:150px;
-        right:170px;
+        top:170px;
+        right:190px;
         transform:rotate(10deg);
         -o-transform:rotate(10deg);
         -moz-transform:rotate(10deg);
