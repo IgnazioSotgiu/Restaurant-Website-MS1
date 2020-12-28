@@ -113,7 +113,7 @@
 .navbar-brand{
     display: none;
     }
-.navbar-brand {
+/*.navbar-brand {
     color: #fff;
     padding: 0;
     margin: 0;
@@ -122,7 +122,7 @@
     text-decoration: none;
     transition-duration: 0.5s;
     color: #000;
-    }
+    }*/
 .map-pin-navbar{
    display: none;
     }
@@ -133,17 +133,8 @@
     border: 1px solid;
     border-radius:20px;
     border-color: #fafafa;
-}/*-----------------------------------------------------------------*/
-/*---------code taken with Google Crome developer tool------------*/
-/*        white border for active element in navbar               */
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #fafafa;
-    border: 0.5px solid;
-    border-radius: 20px;
-    background-color: #000;
-    border-color: #fafafa;
-    }
-/*------------------------end---------------------------*/
+}
+/*-----------------------------------------------------------------*/
 /*-----------------------code taken with the help of crome developer tools---------*/
 /*-----Dropdown menu elements active and hover properties-----------*/
 .dropdown-item.active, .dropdown-item:active {
@@ -246,7 +237,8 @@
     .nav-link{
         font-size: 15px;
         }
-}   
+}
+/*------------------adapt layout header for screens smaller than 768px--------*/   
 @media screen and (max-width: 768px){
     .header-container{
         padding: 15px;
@@ -260,7 +252,7 @@
         margin-right: 10px;
         }
 }
-/*---------------------------style header for mobile devices----*/
+/*---------------------------style header for mobile devices-----------------------------------*/
 @media screen and (max-width: 575px){
     /*----------code to avoid the white right side band to show on mobile view ---------------*/
     html, body{
@@ -337,18 +329,7 @@
         border-radius: 20px;
         border-color: #fafafa;
         }
-    /*.btn-success {
-        border-radius: 20px;
-        color: #fafafa;
-        background-color:#545b62;
-        }*/
-    /*.btn-success:hover {
-        color: #fff;
-        border-color: #fafafa;
-        background-color: #fafafa;
-        transition-duration: 0.2s;
-        }*/
-}
+    }
 
 /*-----------------------------------Navbar style for tablet and desktop*/
 /*.navbar-container{
@@ -871,12 +852,16 @@ h3{
 .contact-container{
     width: 100%;
     height: auto;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     }
+.contact-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
 .jumbotron{
-    margin: 50px auto;
+    margin:  auto;
     max-width: 500px;
     max-height: auto;
     border: 2px solid #d89402;
@@ -894,8 +879,8 @@ h3{
     font-weight: 200;
     }
 .enquiry-form-item .col-6{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
 .enquiry-container{
     padding-top: 20px;
