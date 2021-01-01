@@ -167,6 +167,13 @@
     border-radius: 20px;
     border-color: transparent;
     }
+.dropdown{
+    position: relative;
+    margin-right: 8px;
+}
+#navbarRestaurantDropdown{
+    background-color: #545b62;
+}
 /*----------------------btn-success--------------------------*/
 .btn-success{
     background-color:#545b62;
