@@ -708,7 +708,7 @@ h3{
     }
 /*----------------------style for gallery tablet and desktop collage --------------------------*/
 /*-----code taken from CSS collage Gallery Tutorial  https://www.entheosweb.com/tutorials/css/collage_gallery.asp--*/
-@media screen and (min-width:767px){
+@media screen and (min-width:1000px){
     #gallery-section{
         width:700px;
         height:500px;
@@ -823,10 +823,10 @@ h3{
 
 }
 /*--------------------------end----------------------------------------------*/
-/*----------------------style for gallery mobile view--------------------------*/
-@media screen and (max-width: 766px){
+/*----------------------style for gallery mobile and tablet view--------------------------*/
+@media screen and (max-width: 1000px){
     .gallery-container{
-        padding: 0 5px;
+        padding: 0 10px;
         }
     .gallery-message h3{
         font-size: 20px;
@@ -834,11 +834,13 @@ h3{
         padding-bottom: 20px;
         }
     .gallery-image {
-        max-width: 500px ;
+        max-width: 90%;
         height: auto;
         border-radius: 8px;
         display: block;
         margin: auto;
+        padding: 10px;
+        background: #eee;
         }
     .hr-gallery{
         margin-top: 30px;
