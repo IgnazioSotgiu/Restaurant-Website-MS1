@@ -206,8 +206,8 @@
         padding:20px 50px;
         }
     }
-/*------------------adapt layout header for screens smaller than 775px--------*/
-@media screen and (max-width: 775px){
+/*------------------adapt layout header for screens smaller than 765px--------*/
+@media screen and (max-width: 767px){
     .header-container{
         padding: 40px 20px;
         }
@@ -297,7 +297,7 @@
         }
     /*code taken with chrome dev tool-------styling nav-link for mobile devices*/
     .navbar-expand-sm .navbar-nav .nav-link {
-        font-weight: 200;
+        font-weight: 300;
         padding-right: 1rem;
         padding-left: 2rem;
         width: 50%;
@@ -306,7 +306,8 @@
         margin-right: 5px;
         margin-top: 5px;
         background-color: #000;
-        }
+        color: #fafafa;
+        }    
     /*---------------------------------end---------------------------------*/
     /*------------------styling contacts under navbar on mobile view--------*/    
     .contacts-mobile-view-band{
@@ -337,7 +338,11 @@
         border-color: #fafafa;
         }
     }
-
+@media screen and (max-width:350px){
+        .navbar-brand{
+            font-size: 80%;
+        }
+    }
 /*-----------------------------------Navbar style for tablet and desktop*/
 /*.navbar-container{
     position : relative;
