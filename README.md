@@ -1,4 +1,4 @@
-
+---
 ## Da Pino Restaurant
 #### It's a matter of taste...
 ---
@@ -188,17 +188,17 @@ All the links between the pages have been tested, also the links ro social media
 The website was tested on Crome and Mozilla. 
 # Bugs 
 # Credits
-# Media Images
-## index.html background specials image:  
+## Media Images
+### index.html background specials image:  
 <span>Photo by <a href="https://unsplash.com/@vishkatti?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Vishwas Katti</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
 <span>Photo by <a href="https://unsplash.com/@armedshutter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ayo Ogunseinde</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
 <span>Photo by <a href="https://unsplash.com/@giancescon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Gian Cescon</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
 <span>Photo by <a href="https://unsplash.com/@brookecagle?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Brooke Cagle</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
-## wine-list.html background image: 
+### wine-list.html background image: 
 <span>Photo by <a href="https://unsplash.com/@golfarisa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Arisa Chattasa</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
-## a-la-carte.html - contact.html - gallery.html - group-menu.html - pre-theatre.html background image:  
+### a-la-carte.html - contact.html - gallery.html - group-menu.html - pre-theatre.html background image:  
 <a href='https://www.freepik.com/photos/background'>Background photo created by dashu83 - www.freepik.com</a>  
-## gallery.html images:  
+### gallery.html images:  
 <span>Photo by <a href="https://unsplash.com/@fresh_studio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Zoran Borojevic</a> on <a href="https://unsplash.com/s/photos/carbonara?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
 <span>Photo by <a href="https://unsplash.com/@loija?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Loija Nguyen</a> on <a href="https://unsplash.com/s/photos/steak?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
 <span>Photo by <a href="https://unsplash.com/@louishansel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Louis Hansel @shotsoflouis</a> on <a href="https://unsplash.com/s/photos/chef?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
@@ -212,7 +212,7 @@ The website was tested on Crome and Mozilla.
 <span>Photo by <a href="https://unsplash.com/@alelmes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alasdair Elmes</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 
-## favicon
+### favicon
 The favicon was downloaded from the website https://www.favicon-generator.org/search/---/Food.  
 
 # Deployment
