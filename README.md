@@ -190,11 +190,16 @@ All the links between the pages have been tested, also the links or social media
 The website was tested on Chrome  and Mozilla.
  
 # Bugs 
-* Problem found: Navbar elements moving when hover due to adding border. Solution: Add a transparent border value on the elements and just change colour when hover (style.css line 164) ![](assets/docs/line164.png)
-* Problem found: White band on the right of the screen apperar on mobile view and smaller screens. Solution: Add overflow-x property and give a value of hidden for the whole html page (style.css line 7).    ![](assets/docs/line7.png)
-* Problem found: Dropdown item in toggle menu not aligned with the other items. Solution: Correct margin-right property with value 8px (style.css line 220)  ![](assets/docs/line220.png)
-* Problem Found: Elements in the navbar in screens with width smaller than 350px are keeping the given position. Solution: Give the navbar-brand smaller size to allow elements to stay inline (style.css line 279)  ![](assets/docs/line279.png)
-* Problem Found: Social media icons not centered in the footer. Solution: Code taken from Bootstrap Library, center row and col elements (style.css line 346). ![](assets/docs/line346.png)
+* Problem found: Navbar elements moving when hover due to adding border. Solution: Add a transparent border value on the elements and just change colour when hover (style.css line 164).
+![](assets/docs/line164.png)
+* Problem found: White band on the right of the screen apperar on mobile view and smaller screens. Solution: Add overflow-x property and give a value of hidden for the whole html page (style.css line 7).
+![](assets/docs/line7.png)
+* Problem found: Dropdown item in toggle menu not aligned with the other items. Solution: Correct margin-right property with value 8px (style.css line 220).  
+![](assets/docs/line220.png)
+* Problem Found: Elements in the navbar in screens with width smaller than 350px are keeping the given position. Solution: Give the navbar-brand smaller size to allow elements to stay inline (style.css line 279).  
+![](assets/docs/line279.png)
+* Problem Found: Social media icons not centered in the footer. Solution: Code taken from Bootstrap Library, center row and col elements (style.css line 346).  
+![](assets/docs/line346.png)
 # Credits
 ## Media Images
 ### index.html background specials image:  
