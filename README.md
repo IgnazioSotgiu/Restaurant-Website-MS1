@@ -229,6 +229,17 @@ The website was tested on Chrome  and Mozilla.
 The favicon was downloaded from the website https://www.favicon-generator.org/search/---/Food.  
 
 # Deployment
+This Website was developed in gitpod workspace.  
+To deploy the website to Github Pages Follow these steps:  
+
+1. Search in your browser for Github website.
+1. Login to my Github account with username and password.
+1. Select from the repository list IgnazioSotgiu/Restaurant-Website-MS1.
+1. Fron the top right click on settings.
+1. Scroll down to the Github Pages Section.
+1. For the Source Branch select Master.
+1. Click on Save.
+1. The [Da Pino Restaurant Website](https://ignaziosotgiu.github.io/Restaurant-Website-MS1/) is live on Github Pages. 
 
 
 # Acknowledgements
