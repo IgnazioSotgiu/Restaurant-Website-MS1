@@ -224,6 +224,7 @@
 }
 #navbarRestaurantDropdown{
     background-color: #545b62;
+    margin-bottom: 5px;
 }
 /*---------------------------------toggler navigation link style ------------------------*/
 .navbar-toggler{
