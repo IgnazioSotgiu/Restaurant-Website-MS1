@@ -5,7 +5,7 @@
     font-family: "Exo",sans-serif;
     }
 @media screen and (max-width: 575px){
-    /*----------code taken from stack overflow to avoid the white right side band to show on mobile view ---------------*/
+    /*code taken from stack overflow to avoid the white right side band to show on mobile view*/
     html, body{
     width:100%;
     overflow-x:hidden;
@@ -406,7 +406,7 @@
     height: 200px;
     position: relative;
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     }
 .specials-container a{
@@ -428,7 +428,7 @@
     height: 200px;
     position: relative;
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     }
 .special-sunday p{
@@ -443,7 +443,7 @@
     height: 200px;
     position: relative;
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     }
 @media screen and (max-width: 575px) {
@@ -815,7 +815,7 @@ h3{
     .hr-gallery-bottom{
         margin-top: 30px;
         margin-bottom: 0;
-        background-color: gray;
+        background-color: #545b62;
         width: 20%;
         }
     }
@@ -869,7 +869,7 @@ h3{
     display: block;
     text-align: center;
     }
-
+/*-------------------------adapt layout for tablet---------------------------*/
 @media screen and (max-width: 900px){
     .enquiry-form-item{
     margin-top: 15px;
@@ -880,6 +880,7 @@ h3{
         height: 300px;
     }
 }
+/*------------------------adapt layout for mobile screens------------------------*/
 @media (min-width: 576px){
     .jumbotron {
         padding: 25px;
