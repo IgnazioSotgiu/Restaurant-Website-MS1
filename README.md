@@ -1,12 +1,11 @@
 ---
 ## Da Pino Restaurant
-#### It's a matter of taste...
+#### ... It's a matter of taste...
 ---
 
-The goal of the (fictitious) Website is to provide up to date information about the Restaurant Menu, Special Deals available, Wine List, Take Away Deals, Social Media Links, and Reviews from customers. Also provide contact details, address, and location on map, pictures of the Restaurant and of sample dishes available on the menu. The website advertises Sunday deals, Pre theatre and take away promotions.
+The goal of the (fictitious) Da Pino Restaurant Website is to provide up to date information about the Restaurant Menu, Special Deals available, Wine List, Take Away Deals, Social Media Links, and Reviews from customers. Also provide contact details, address, and location on map, pictures of the Restaurant and of sample dishes available on the menu. The website advertises Sunday deals, Pre Theatre and Take Away promotions.
 
----   
-
+---  
 ![](assets/docs/responsive-mockup.png)
 
 ---
@@ -48,10 +47,10 @@ The Website is composed of a [Home page](index.html) a [Gallery](gallery.html) a
 
 The Website has a non-linear hyperlinked structure. A navigation bar in the header provides links to the different Menu Pages, the Wine List, The Gallery Page, and the Contact Form.  
 In the mobile devices the navigation bar is collapsed into a toggle menu taking less real estate space and allows the home page to be a bit lighter and not too busy.  
-Each page has the same header and footer making the website more intuitive and user friendly. Only the contact page doesn't have header and footer and it opens in a new tab.   
-The homepage main specials section have a full image on the background with three messages opening on the side with Special Sunday Offers, Pre-theatre and Take Away deals.  
- In the Mobile devices the messages take the full width of the screen keeping the picture in the background. In desktop screens at the bottom of the main picture three columns contain reviews of different customers. In the tablet screen only 2 reviews are displayed inline. In the mobile view the reviews are in a single column for the full width of the screen.  
-In the Gallery Page for mobile devices the pictures flow in the same screen one below the other. In the desktop and tablet view the gallery is displayed in collage with zoom on the picture when hover. 
+Each page has the same header and footer making the website more intuitive and user friendly.    
+The homepage main specials section have a full image on the background with three messages opening on the side: Special Sunday Offers, Pre Theatre and Take Away deals.  
+In the Mobile devices the messages take the full width of the screen keeping the picture in the background. In desktop screens at the bottom of the main picture three columns contain reviews of different customers. In the tablet screen only 2 reviews are displayed inline. In the mobile view the three reviews are in a single column taking the full width of the screen.  
+In the Gallery Page for mobile and tablet devices the pictures flow in the same screen one below the other. In the desktop view the images are displayed in collage with zoom property on the picture when hover. 
 All the menu pages have the same body structure and colours, changing only the content, providing consistence and repetition thorough the website. A download button is present just below the menu title, giving the user the choice for download a printable copy of the menu.
 
 ## Purpose of the website 
@@ -62,7 +61,7 @@ The Restaurant Owner goal is to improve business, show potential customers menus
 
 Find in the attached document the [User Stories](assets/docs/user-stories.pdf).
 
-Based on our user stories importance and viability we draw a list with the features the Restaurant Owner need to implement in the Initial Website, leaving the rest of the features that are not considered highly important for future versions:
+Based on our user stories importance and viability we draw a list with the features the Restaurant Owner need to implement in the Initial Website, leaving the rest of the features that are not considered highly important for future implemented versions:
 
 ### Features to implement in first version
 1. Create an online presence for the Restaurant (this is the restaurant first website).
@@ -70,8 +69,8 @@ Based on our user stories importance and viability we draw a list with the featu
 1. Advertise special deals for large Groups, Corporations Dinners, Christmas Parties, and Private Functions.
 1. Allow customers to download PDF menus for Groups, Tour Operators, and Office Parties etc.
 1. Show menu prices and deals. The website will have 3 different menus, A la Carte, Pre Theatre, Group Menu and also the Wine List.
-1. Promote Take Away deal. A section on the Home page informs the user that the food and drinks in the menu are available for Take Away.
-1. Show pictures of the restaurant and the dishes. Pictures will be displayed in the Gallery page.
+1. Promote Take Away deal. A section on the Home page informs the user Take Away promotions.
+1. Show pictures of the Restaurant and the dishes. Pictures will be displayed in the Gallery page.
 1. Show links to Social Media networks and Trip Advisor.
 1. Display few customer reviews.
 
@@ -89,53 +88,55 @@ Find in the attached document [User Stories pdf](assets/docs/user-stories.pdf) t
 * [Food Menu Pages](assets/docs/wireframes/food-menu-wireframes.pdf)
 * [Wine List Page](assets/docs/wireframes/wine-list.html-wireframes.pdf)
 * [Gallery Page](assets/docs/wireframes/gallery.html-wireframes.pdf)
-* [Contact Page](assets/docs/wireframes/contact.html-wireframes.pdf)
-# Features Details
-# Homepage
-##  Header Features:
-* By clicking on the name of the restaurant and the sub headers the user will go to the [home page](index.html).
+* [Contact Page](assets/docs/wireframes/contact.html-wireframes.pdf)  
+
+## Features Details
+### Homepage Features
+###  Header:
+* By clicking on the name of the restaurant and the sub headers the user will go to the Homepage.
 * By clicking the address or the pin icon the browser opens the restaurant location on Google maps website in a new tab.
-* By clicking the email address the user opens the page [contact](contact.html) with the email contact form for any enquiries.
-* The navbar links in the tablet and desktop screen size connects to [Home](index.html), Food menus - which is a dropdown menu with [a la carte](a-la-carte.html), [pre theatre](pre-theatre.html) and [group menu](group-menu.html) - [Wine List](wine-list.html), [Gallery](gallery.html) and [Contact](contact.html). 
+* By clicking the email address the user opens the page Contact with the email contact form for any enquiries.
+* The navbar links in the tablet and desktop screen size connects to Homepage), Food menus - which is a dropdown menu with a la carte, Pre Theatre and Group Menu - Wine List, Gallery and Contact. 
 * In the mobile view the navigation links shrinks into a toggle icon which is fixed on the top of the screen staying visible when the user scrolls down the page, for a more user friendly website.
 * In the mobile view beside the toggle icon there is a map pin linked to Google maps website showing the exact location of the Restaurant.
-* In the mobile view the navbar-brand is visible in the top right. The Restaurant name is displayed and linked to the Home Page. 
-* In the mobile view on top, under the restaurant name there are displayed contact details, (phone number and email address - linked to contact page). 
-## Specials Section index.html features 
+* In the mobile view the navbar-brand is visible in the center of the navbar. The Restaurant name is displayed and linked to the Home Page. 
+* In the mobile view on top, under the restaurant name there are displayed contact details, (phone number and email address - linked to contact page) and an enquiry button. 
+### Specials Section index.html features 
 * The background of the special section contains a view of the restaurant. 
 * The first message contains a Pre Theatre deal available, by clicking on the enquiry button will go to the contact page.
 * The second message communicates the special Sunday roast. By clicking on the button the user will go the the contact page.
-* The third message is linked to the a la carte menu for a choice of take away. The button is linked to contact page.
-## Review section
+* The third message promote take away deals. The button is linked to contact page.
+### Review section
 * On large screen three columns display three different reviews on the same row.
 * On tablet only two columns are displayed and only two reviews are visible on the screen.
 * On mobile screen the reviews are taking the full width of the screen and the three reviews are displayed in a single column.
-## Footer Features  
+### Footer Features  
 * In the footer there are links to Social Media Accounts (Twitter, Facebook, Instagram) also a link to Tripadvisor.
 
-# Food Menu Features
-* The menu is displayed in a single column with a dark image background.
+### Food Menu Pages Features
+* The menu is displayed in a single column with a dark background.
 * By clicking the download button under the menu title the user will be able to open in a new tab a printable version of the menu.
-# Wine List Features
+### Wine List Page Features
 * The wine list is displayed in 2 columns in the medium and large screens.
 * In the mobile view the list is displayed in a single column.
 *  By clicking the download button under the menu title the user will be able to have a printable version of the wine list.
-# Gallery Features
+### Gallery Page Features
 * In desktop and tablet screens the images are presented as a collage with a zoom in effect when hovers.
 * In the gallery in small screens the images are displayed in a single scrolling page. 
 * In the mobile view the images will take the full width of the screen.
-# Contact Features
+### Contact Features
 * A contact form is displayed allowing the user to enter his/her name and email address and a space for the Request/Enquiry.
 
 
-# Features left to implement
+## Features left to implement
 * Add a section for vegan vegetarian options menus, allergies messages.
 * Create a customer database - Newsletter - to keep users informed about the last specials and deals.
 * Create a gift voucher page to allow customers to buy gift vouchers.
 * Create a menu vegan - vegetarian friendly and promote it on the specials section.
 * Create a lunch menu deal and promote it on the specials section.
 
-# Technologies Used
+## Technologies Used
+---
 ### Languages 
 * HTML to create the pages. 
 * CSS to style the elements in the pages.
@@ -151,7 +152,8 @@ Find in the attached document [User Stories pdf](assets/docs/user-stories.pdf) t
 * Microsoft Excel.
 * Balsamiq for wireframes.
 
-# Testing
+## Testing
+---
   
 * by clicking on the Restaurant name and headings the user is brought back to the homepage.
 * click on the address and map pin opens a new tab in [google maps](https://www.google.com/maps/place/Spitalfields/@53.3398205,-6.2778856,17z/data=!3m1!4b1!4m5!3m4!1s0x48670d3113db4349:0x3e89ab39f62b537d!8m2!3d53.3398173!4d-6.2756969) with the exact location of the Restaurant.
@@ -189,7 +191,8 @@ Find in the attached document [User Stories pdf](assets/docs/user-stories.pdf) t
 All the links between the pages have been tested, also the links or social media tripadvisor and Google maps.
 The website was tested on Chrome  and Mozilla.
  
-# Bugs 
+## Bugs
+--- 
 * Problem found: Navbar elements moving when hover due to adding border. Solution: Add a transparent border value on the elements and just change colour when hover (style.css line 164).
 ![](assets/docs/line164.png)
 * Problem found: White band on the right of the screen apperar on mobile view and smaller screens. Solution: Add overflow-x property and give a value of hidden for the whole html page (style.css line 7).
@@ -200,9 +203,10 @@ The website was tested on Chrome  and Mozilla.
 ![](assets/docs/line279.png)
 * Problem Found: Social media icons not centered in the footer. Solution: Code taken from Bootstrap Library, center row and col elements (style.css line 346).  
 ![](assets/docs/line346.png)
-# Credits
-## Media Images
-### index.html background specials image:  
+## Credits
+---
+### Media Images
+### index.html page:  
 <span>Photo by <a href="https://unsplash.com/@vishkatti?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Vishwas Katti</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
 <span>Photo by <a href="https://unsplash.com/@armedshutter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ayo Ogunseinde</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
 <span>Photo by <a href="https://unsplash.com/@giancescon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Gian Cescon</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>  
