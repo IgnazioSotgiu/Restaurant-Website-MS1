@@ -203,6 +203,8 @@ The website was tested on Chrome  and Mozilla.
 ![](assets/docs/line279.png)
 * Problem Found: Social media icons not centered in the footer. Solution: Code taken from Bootstrap Library, center row and col elements (style.css line 346).  
 ![](assets/docs/line346.png)
+* Problem Found: When adding overflow-x:hidden to html, body element appear a second scrollbar. Solution: add a value 100% to height property (style.css line 8)   
+![](assets/docs/line8.png)
 ## Credits
 ---
 ### Media Images
