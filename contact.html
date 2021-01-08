@@ -88,16 +88,18 @@
             <h3 class="jumbotron-header">Da Pino Restaurant <br><br>Please tell us what do you need</h3>
                 <form>
                     <div class="row">
-                        <div class="enquiry-form-item col-md-6">
+                        <div class="enquiry-form-item col-12 col-md-6">
                             <label for="fullname">Full Name</label>
                             <br>
                             <input type="text" class="full-name-input" id="fullname" placeholder="">
                         </div>
-                        <div class="enquiry-form-item col-md-6">
+                        <div class="enquiry-form-item col-12 col-md-6">
                             <label for="email">Email Address</label>
                             <br>
                             <input type="email" class="email-input" id="email" placeholder="">
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="enquiry-container col-12">
                             <label for="request-enquiry">Request / Enquiry</label>
                             <br>
@@ -105,8 +107,11 @@
                              <textarea class="request" id="request-enquiry" name="subject" placeholder="" style="height:200px"></textarea>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-                        Send</button>
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Send</button>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
