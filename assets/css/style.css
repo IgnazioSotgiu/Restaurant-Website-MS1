@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: "Exo",sans-serif;
-    min-height: 100vh;
     }
 @media screen and (max-width: 575px){
     /*code taken from stack overflow to avoid the white right side band to show on mobile view*/
@@ -32,7 +31,7 @@
     padding-top:10px;
 }
 .top-banner-message i{
-    color:#000;
+    color:#0c0c0c;
     font-size:25px;
     padding-left:5px;
     }
@@ -41,8 +40,8 @@
 }    
 /*-----------------------------------Header for tablet and desktop ----------------------------*/
 .header-container{
-    height: auto;
     width: 100%;
+    height: auto;
     font-family: "Exo", sans-serif;
     font-weight: 400;
     padding: 20px 150px;
@@ -198,16 +197,16 @@
     font-weight: 400;
     }
 .dropdown-item:hover{
-    background-color: #000;
+    background-color: #0c0c0c;
     color: #fafafa;
     border-radius: 20px;
     border: 0.5px solid;
-    border-color: #545b62;
+    border-color: #fafafa;
     }
 /*--------------------------------------------end------------------------------------------*/
 /*-----------------------styling dropdown menu on mobile view------------------------------*/
 .navbar-nav .dropdown-menu{
-    background-color: #060606;
+    background-color: #0c0c0c;
     width: 50%;
     border-radius: 20px;
     float: right;
@@ -238,7 +237,7 @@
     background-color:transparent;
     }
 .navbar-toggler:hover{
-    background-color: #000;
+    background-color: #0c0c0c;
     transition-duration: 0.2s;
     }
 /*-----------------------------navigation bar style for mobile screens---------------------*/
@@ -264,7 +263,7 @@
         height:30px;    
         }
     nav a i:hover{
-        color: #000;
+        color: #0c0c0c;
         text-decoration: none;
         transition-duration: 0.2s;
         }
@@ -278,7 +277,7 @@
         border-radius: 20px;
         margin-right: 5px;
         margin-top: 5px;
-        background-color: #000;
+        background-color: #0c0c0c;
         color: #fafafa;
         }
     }
@@ -382,8 +381,8 @@
     border-color: #fafafa;
     }
 .btn-success:focus {
-    color: #fff;
-    background-color: #434a50;
+    color: #fafafa;
+    background-color: #545b62;
     border-color: #fafafa;
     box-shadow:none;
     }
@@ -421,11 +420,11 @@
     color: #fafafa;
     margin-bottom: 0;
     }
-.specials-container a:hover{
+/*.specials-container a:hover{
     color: rgb(0, 0, 0);
     text-decoration: none;
     transition-duration: 0.2s;
-    }
+    }*/
 .special-sunday{
     top: 50px;
     left: 10%;

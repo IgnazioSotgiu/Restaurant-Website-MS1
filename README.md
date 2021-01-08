@@ -205,6 +205,8 @@ The website was tested on Chrome  and Mozilla.
 ![](assets/docs/line346.png)
 * Problem Found: When adding overflow-x:hidden to html, body element appear a second scrollbar. Solution: add a value 100% to height property (style.css line 8)   
 ![](assets/docs/line8.png)
+* Problem Found: In the Gallery Page for desktop view the image flick when hover close to the edge due to the rotation. Solution: Adding a negative margin of -50px solve the problem. the picture rotate covering the original size (style.css line 683).   
+![](assets/docs/line683.png)
 ## Credits
 ---
 ### Media Images
