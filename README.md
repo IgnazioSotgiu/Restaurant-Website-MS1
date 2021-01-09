@@ -91,6 +91,13 @@ Find in the attached document [User Stories pdf](assets/docs/user-stories.pdf) t
 * [Contact Page](assets/docs/wireframes/contact.html-wireframes.pdf)  
 
 ## Features Details
+---
+### Colour Palette:  
+![](assets/docs/color-palette.png)  
+### Fonts:  
+
+Font used Exo and Roboto from [Google Fonts](https://fonts.google.com/)  
+
 ### Homepage Features
 ###  Header:
 * By clicking on the name of the restaurant and the sub headers the user will go to the Homepage.
@@ -207,7 +214,9 @@ The website was tested on Chrome  and Mozilla.
 ![](assets/docs/line8.png)
 * Problem Found: In the Gallery Page for desktop view the image flick when hover close to the edge due to the rotation. Solution: Adding a negative margin of -50px solve the problem. the picture rotate covering the original size (style.css line 683).   
 ![](assets/docs/line683.png)
-## Credits
+## Credits  
+### Colour Palette:
+[coolors.co](https://coolors.co/0c0c0c-545b62-c7d2dc-ffab00-fafafa)
 ---
 ### Media Images
 ### index.html page:  
