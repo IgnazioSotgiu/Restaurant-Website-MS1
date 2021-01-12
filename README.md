@@ -38,7 +38,7 @@ The goal of Da Pino Restaurant Website is to provide up to date information abou
 
 ## Structure
 
-The Website is composed of a [Home page](index.html) a [Gallery](gallery.html) and three menu pages with the same structure [A la Carte](a-la-carte.html) [Pre Theatre](pre-theatre.html) and [Group Menu](group-menu.html) available for large groups. Also the [Wine List](wine-list.html) have the same structure. The [contact page](contract.html) display the email contact form for enquiries. All the pages links are present on the navigation bar, with the three food menu present in a dropdown menu.
+The Website is composed of a Home page a Gallery and three menu pages with the same structure A la Carte, Pre Theatre and Group Menu available for large groups. Also the Wine List have the same structure. The contact page display the email contact form for enquiries. All the pages links are present on the navigation bar, with the three food menu present in a dropdown menu.
 
 ---
 ![](assets/docs/website-structure.png) 
@@ -216,8 +216,10 @@ Android Mobile
 All the links between the pages have been tested, also the links or social media tripadvisor and Google maps.
 The website was tested on Chrome  and Mozilla.
 
-### CSS code has passed the official jigsaw validator with no issues✔️
-### HTML code has passed the official W3C validator with no issues✔️
+### CSS code has passed the official jigsaw validator with no issues✔️  
+![](assets/docs/css-validator.png)
+### HTML code has passed the official W3C validator with no issues✔️  
+![](assets/docs/html-validator.png)
  
 ## Bugs
 --- 
