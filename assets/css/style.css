@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
-.body{
+body{
     margin: 0;
     padding: 0;
-    font-family: "Exo",sans-serif;
+    font-family: "Exo", sans-serif;
     }
 @media screen and (max-width: 575px){
-    /*code taken from stack overflow to avoid the white right side band to show on mobile view*/
     html, body{
-    width:100%;
-    overflow-x:hidden;
-    height: 100%;
+        width:100%;
+        overflow-x:hidden;
+        height: 100%;
+        }
     }
-}
-/*----------------------------------------------------------------------------------------*/
-/*-------------------------------------Top banner ----------------------------------------*/
+/*------------------------------Top banner-----------------------------*/
 .top-banner{
     width:100%;
     height:50px;
@@ -26,10 +24,10 @@
     background-color:#ffab00;
     color:#000;
     border-radius:20px;
-}
+    }
 .top-banner-message{
     padding-top:10px;
-}
+    }
 .top-banner-message i{
     color:#0c0c0c;
     font-size:25px;
@@ -37,8 +35,8 @@
     }
 .credit-card-icons{
     padding-top:20px;
-}    
-/*-----------------------------------Header for tablet and desktop ----------------------------*/
+    }    
+/*---------------------------Header for tablet and desktop ----------------------------*/
 .header-container{
     width: 100%;
     height: auto;
@@ -51,10 +49,10 @@
 .bg-color-header{
         background-color: #0c0c0c;
     }
-.name-contacts-section a {
+.name-contacts-section a{
     color: #fafafa;
     }
-.restaurant-name {
+.restaurant-name{
     font-weight:600;
     letter-spacing: 18px;
     line-height: 20px;
@@ -85,18 +83,16 @@
 .contacts-mobile-view-band{
     display: none;
     }
-.name-contacts-section a:hover {
+.name-contacts-section a:hover{
     color:rgb(202, 199, 199);
     text-decoration: none;
     transition-duration: 0.2s;
     }
-/*------------------adapt layout  header for screens smaller than 1000px-------------------*/
 @media screen and (max-width: 1000px){
     .header-container{
         padding:20px 40px;
         }
-    }
-/*------------------adapt layout header for screens smaller than 770px---------------------*/   
+    }   
 @media screen and (max-width: 770px){
     .header-container{
         width: 100%;
@@ -133,8 +129,13 @@
         height: 10px;
         margin-right: 10px;
         }
+    .fa-envelope:before{
+        padding-right: 5px;
+        }
+    .fa-phone:before{
+    padding-right: 5px;
+        }
     }
-/*------------------adapt layout header for mobile screens-------------------------------*/
 @media screen and (max-width: 575px){
     .name-contacts-section{
         display: none;
@@ -144,7 +145,6 @@
         }
     }
 /*----------------------------------navbar-----------------------------------------------*/
-/*------------------style navbar for tablet and desktop----------------------------------*/
 .navbar-container{
     margin: 0;
     padding: 0;
@@ -164,33 +164,27 @@
     height: 50px;
     width: 100%;
     }
-/*--------------set border for nav link to transparent for later hover property-------------*/
 .nav-link{
     color: #fafafa;
     border:1px solid;
     border-radius:20px;
     border-color:transparent;
 }
-/*----------------------------------end-----------------------------------------------------*/
-/*--------------------navbar-brand and map-pin to be displayed only on mobile devices-------*/
+/*----------------navbar-brand and map-pin to be displayed only on mobile devices-------*/
 .navbar-brand{
     display: none;
     }
 .map-pin-navbar{
    display: none;
     }
-/*----------------------------code for the border when hover the navbar---------------------*/
-.nav-link:hover {
+.nav-link:hover{
     text-decoration: none;
     color: #fafafa;
     border: 1px solid;
     border-radius:20px;
     border-color: #fafafa;
     }
-/*------------------------------------------------------------------------------------------*/
-/*-------------------------code taken with the help of chrome developer tools---------------*/
-/*------------------------Dropdown menu elements active and hover properties----------------*/
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active, .dropdown-item:active{
     background-color: transparent;
     color:#fafafa;
     text-decoration: none;
@@ -203,8 +197,6 @@
     border: 0.5px solid;
     border-color: #fafafa;
     }
-/*--------------------------------------------end------------------------------------------*/
-/*-----------------------styling dropdown menu on mobile view------------------------------*/
 .navbar-nav .dropdown-menu{
     background-color: #0c0c0c;
     width: 50%;
@@ -230,7 +222,6 @@
     background-color: #545b62;
     margin-bottom: 5px;
 }
-/*---------------------------------toggler navigation link style ------------------------*/
 .navbar-toggler{
     border: 0;
     border-color: transparent;
@@ -240,9 +231,8 @@
     background-color: #0c0c0c;
     transition-duration: 0.2s;
     }
-/*-----------------------------navigation bar style for mobile screens---------------------*/
 @media screen and (max-width: 575px){
-    .navbar {
+    .navbar{
         top: 0;
         position: fixed;
         background-color:#545b62;
@@ -267,8 +257,7 @@
         text-decoration: none;
         transition-duration: 0.2s;
         }
-    /*----------code taken with chrome dev tool-------styling nav-link for mobile devices----*/
-    .navbar-expand-sm .navbar-nav .nav-link {
+    .navbar-expand-sm .navbar-nav .nav-link{
         font-weight: 300;
         padding-right: 1rem;
         padding-left: 2rem;
@@ -281,7 +270,6 @@
         color: #fafafa;
         }
     }
-/*--------------------adapt navbar for screens smaller than 350px----------------------------*/
 @media screen and (max-width:350px){
         .navbar-brand{
             font-size: 80%;
@@ -308,19 +296,19 @@
     .contacts-mobile a{
         color: #fafafa;
         }
-    .contacts-mobile-view-band a:hover {
+    .contacts-mobile-view-band a:hover{
         text-decoration: none;
         border: 0.5px solid;
         border-radius: 20px;
         border-color: #fafafa;
         }
     }
-/*--------------------------- footer style------------------------------------------*/
+/*--------------------------- footer-----------------------------------------*/
 .footer-container{
     width: 100%;
     height: auto;
     position: relative;
-    padding: 150px 20% 50px;
+    padding: 100px 20% 50px;
     margin-bottom: -2px; 
     }
 .footer-container-bg-color{
@@ -345,8 +333,6 @@
     text-align:center;
     font-size:25px;
     }
-/*-----------------------this code was taken from bootstrap library------------------------*/
-/*-------------------------------center social media icons---------------------------------*/
 .row-center{
     text-align: center;
     }
@@ -354,7 +340,6 @@
     display: inline;
     float: none;
     }
-/*----------------this code was taken from bootstrap library --End-------------------------*/
 .social-media a>i:hover{
     color:#ffbf00;
     text-decoration: none;
@@ -374,20 +359,18 @@
     color: #000;
     border-color: transparent; 
 }
-/*----------------------active code taken with chrome developer tool------------------------*/
-.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle{
     color: #000;
     background-color: #fafafa;
     border-color: #fafafa;
     }
-.btn-success:focus {
+.btn-success:focus{
     color: #fafafa;
     background-color: #545b62;
     border-color: #fafafa;
     box-shadow:none;
     }
 /*------------------------styling hero image section index.html---------------------------*/
-/*--------------------code taken from whiskey drop project - code institute---------------*/
 .specials-container{
     margin: 0;
     padding:50px;
@@ -420,12 +403,7 @@
     color: #fafafa;
     margin-bottom: 0;
     }
-/*.specials-container a:hover{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    transition-duration: 0.2s;
-    }*/
-.special-sunday{
+.special-group{
     top: 50px;
     left: 10%;
     padding: 20px 20px;
@@ -436,7 +414,7 @@
     border-radius: 20px;
     text-align: center;
     }
-.special-sunday p{
+.special-group p{
     color: #fafafa;
     margin-bottom: 0px;
     }   
@@ -451,14 +429,14 @@
     border-radius: 20px;
     text-align: center;
     }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 575px){
     .hero-image{
-    background: url("../images/vishwas-katti-UrQ_BS9bLXQ-unsplashheroimagemobileview.jpg") no-repeat bottom right ; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    }
+        background: url("../images/vishwas-katti-UrQ_BS9bLXQ-unsplashheroimagemobileview.jpg") no-repeat bottom right ; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
     .specials-container{
         height: 850px;
         padding: 10px 5px;
@@ -474,8 +452,8 @@
         }
     .specials-container p{
         margin-bottom: 0;
-    }
-    .special-sunday{
+        }
+    .special-group{
         top: 310px;
         padding: 10px 10px;
         width: 80%;
@@ -496,7 +474,7 @@
         text-align: center;
         }
     }
-/*----------------------------------style review section index.html---------------------------*/
+/*---------------------------------review section index.html---------------------------*/
 .reviews-container{
     padding:50px 50px;
     }
@@ -573,8 +551,7 @@
     }
 .wine-list-bg-image{
     height: auto;
-    background: url("../images/arisa-chattasa-Hi0eZI8LSYU-unsplash.jpg") no-repeat bottom right ; 
-    -webkit-background-size: cover;
+    background: url("../images/arisa-chattasa-Hi0eZI8LSYU-unsplash.jpg") no-repeat bottom right;-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -669,7 +646,7 @@ h3{
         position: relative;
         border: 2px solid transparent;
         border-radius:20px;
-    }
+        }
     #gallery-section img:hover{
         z-index: 999;
         width:600px;
@@ -680,7 +657,7 @@ h3{
         -moz-transform:rotate(0deg);
         -webkit-transform:rotate(0deg);
         margin: -50px;
-    }
+        }
     #image-1,#image-2,#image-3,#image-4,
     #image-5,#image-6,#image-7,#image-8,#image-9{
         width:300px;
@@ -691,7 +668,7 @@ h3{
         -moz-border-radius:20px;
         -webkit-border-radius:20px;
         position:absolute;
-    }
+        }
     #image-1{
         z-index:1;
         top:-10px;
@@ -700,7 +677,7 @@ h3{
         -o-transform:rotate(-5deg);
         -moz-transform:rotate(-5deg);
         -webkit-transform:rotate(-5deg);
-    }
+        }
     #image-2{
         z-index:2;
         top:-10px;
@@ -709,7 +686,7 @@ h3{
         -o-transform:rotate(10deg);
         -moz-transform:rotate(10deg);
         -webkit-transform:rotate(10deg);
-    }
+        }
     #image-3{
         z-index:3;
         top:180px;
@@ -718,7 +695,7 @@ h3{
         -o-transform:rotate(10deg);
         -moz-transform:rotate(10deg);
         -webkit-transform:rotate(10deg);
-    }
+        }
     #image-4{
         z-index:4;
         top:370px;
@@ -727,7 +704,7 @@ h3{
         -o-transform:rotate(-20deg);
         -moz-transform:rotate(-20deg);
         -webkit-transform:rotate(-20deg);
-    }
+        }
     #image-5{
         z-index:5;
         top:-25px;
@@ -736,7 +713,7 @@ h3{
         -o-transform:rotate(-10deg);
         -moz-transform:rotate(-10deg);
         -webkit-transform:rotate(-10deg);
-    }
+        }
     #image-6{
         z-index:6;
         top:360px;
@@ -745,7 +722,7 @@ h3{
         -o-transform:rotate(-10deg);
         -moz-transform:rotate(-10deg);
         -webkit-transform:rotate(-10deg);
-    }
+        }
     #image-7{
         z-index:7;
         top:150px;
@@ -754,7 +731,7 @@ h3{
         -o-transform:rotate(15deg);
         -moz-transform:rotate(15deg);
         -webkit-transform:rotate(15deg);
-    }
+        }
     #image-8{
         z-index:8;
         top:350px;
@@ -763,7 +740,7 @@ h3{
         -o-transform:rotate(10deg);
         -moz-transform:rotate(10deg);
         -webkit-transform:rotate(10deg);
-    }
+        }
     #image-9{
         z-index:9;
         top:170px;
@@ -774,7 +751,6 @@ h3{
         -webkit-transform:rotate(10deg);
         }
     }
-/*-----------------------------------------end----------------------------------------------*/
 /*------------------------style for gallery mobile and tablet view--------------------------*/
 @media screen and (max-width: 1000px){
     .gallery-container{
@@ -785,7 +761,7 @@ h3{
         padding-top: 20px;
         padding-bottom: 20px;
         }
-    .gallery-image {
+    .gallery-image{
         max-width: 90%;
         height: auto;
         border-radius: 8px;
@@ -808,7 +784,7 @@ h3{
         }
     }
 @media screen and (min-width:767px){
-    .gallery-image {
+    .gallery-image{
         max-width: 600px;
         height: auto;
     }
@@ -826,11 +802,11 @@ h3{
         }
     }
 @media screen and (max-width: 575px){
-    .gallery-container {
+    .gallery-container{
         padding: 20px 5px;
         }
     }
-/*------------------------contact page form style--------------------*/
+/*------------------------contact page--------------------*/
 .contact-container{
     width: 100%;
     height: auto;
@@ -861,11 +837,11 @@ h3{
     font-weight: 200;
     }
 .full-name-input{
-    border-radius: 20px;
-}
+    border-radius: 10px;
+    }
 .email-input{
-    border-radius: 20px;
-}
+    border-radius: 10px;
+    }
 .enquiry-form-item .col-6{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -886,23 +862,22 @@ h3{
     display: block;
     text-align: center;
     }
-/*-------------------------adapt layout for tablet---------------------------*/
 @media screen and (max-width: 900px){
     .enquiry-form-item{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    }
+        margin-top: 15px;
+        margin-bottom: 15px;
+        }
     .request{
         width: 90%;
         height: 300px;
+        }
     }
-}
-/*------------------------adapt layout for mobile screens------------------------*/
-@media (min-width: 576px){
+
+@media (min-width: 575px){
     .jumbotron {
         padding: 25px;
+        }
     }
-}
 /*------------------------------copyright message-------------------------*/
 .copyright-container{
     position: relative;
@@ -923,5 +898,5 @@ h3{
 @media screen and (max-width:575px){
     .copyright-container .copyright-message{
         font-size: 12px;
+        }
     }
-}

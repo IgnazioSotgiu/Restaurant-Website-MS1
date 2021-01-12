@@ -160,10 +160,11 @@ Font used Exo and Roboto from [Google Fonts](https://fonts.google.com/)
 * CSS to style the elements in the pages.
 ### Libraries
 * Bootstrap Library to style the elements.
-* Google Fonts 
-* Font Awesome where to get the icons 
+* Google Fonts. 
+* Font Awesome where to get the icons.
+* Emojipedia 
 ### Tools
-* developed on gitpod.io 
+* Developed on gitpod.io 
 * Git Hub for version control.
 * Chrome developer tool.
 * Microsoft Word for printable Menus.
@@ -180,57 +181,53 @@ Android Tablet
 Android Mobile
 
   
-* By clicking on the Restaurant name and headings the user is brought back to the Homepage.
-* Click on the address and map pin opens a new tab in [google maps](https://www.google.com/maps/place/Spitalfields/@53.3398205,-6.2778856,17z/data=!3m1!4b1!4m5!3m4!1s0x48670d3113db4349:0x3e89ab39f62b537d!8m2!3d53.3398173!4d-6.2756969) with the exact location of the Restaurant.
-* Click on the email address in the header links to the Contact page with the email form.
-* Navigation bar in the desktop and tablet is below the header have links to all the website pages. In the mobile screen it's fixed on top of the page with all the menu links in a toggle menu.
-* Home links to the homepage.
-* Dropdown food menu open choice of three menus, a la carte, pre theatre, group menu.
-* A la carte opens the a-la-carte.html page.
-* Pre theatre opens the pre-theatre.html page.
-* Group menu opens the group-menu.html page.
-* Wine list opens the wine-list.html page.
-* Contact opens the contact.html page.
-* On the mobile view the map pin icon is linked to Google maps and open a new tab showing the restaurant location.
-* On the mobile view the contact information are below the navbar and cantered. The email address is linked to the contact.html page.
-* The links on each message on the special section in index.html are opening a new tab with the contact page email form.
-* In desktop and tablet view the message is in three small message container on the left side. In mobile view the messages take the whole width of the screen.
-* The review section is displayed below the specials section and contains three reviews. On tablet and desktop screens the reviews are displayed one beside the other, with the tablet screen only displaying two reviews, in the mobile view the three reviews are displayed vertically and they take the full width of the screen.
-* Each review contains a picture of the author, a review title, the review message and the author's name.
-* In the footer there are four links to social media websites are displayed horizontally in the centre.
-* Facebook icon links to [facebook home page](https://www.facebook.com/)
-* twitter icon links to [twitter home page](https://twitter.com/)
-* Instagram icon links to [instagram home page](https://instagram.com/)
-* Tripadvisor icon links to [tripadvisor home page](https://www.tripadvisor.com/)
-* All social media links open new tabs.
-* In a-la-carte.html the menu information are displayed in a single column in the centre of the screen. The **download the menu here** link opens a new tab with a printable version of the menu in pdf format.
-* In pre-theatre.html the menu information are displayed in a single column in the centre of the screen. The **download the menu here** link opens a new tab with a printable version of the menu in pdf format.
-* In group-menu.html the menu information are displayed in a single column in the centre of the screen. The **download the menu here** link opens a new tab with a printable version of the menu in pdf format.
-* Wine-list.html the menu information is displayed in two columns for desktop and tablet screens and in a single column in mobile screens. The **download the menu here** link opens a new tab with a printable version of the menu in pdf format.
-* In gallery.html on desktop screen the gallery display in image collage with a zoom in effect when hover. On mobile and tablet view the images will display on a single column taking the full width of the screen.
-* In contact.html the send button is linked to a modal, with a message that the request has been sent.
-* The home button in the modal is linked back to the home page.
+* By clicking on the Restaurant name and headings the user is brought back to the Homepage.✔️
+* Click on the address and map pin opens a new tab in [google maps](https://www.google.com/maps/place/Spitalfields/@53.3398205,-6.2778856,17z/data=!3m1!4b1!4m5!3m4!1s0x48670d3113db4349:0x3e89ab39f62b537d!8m2!3d53.3398173!4d-6.2756969) with the exact location of the Restaurant.✔️
+* Click on the email address in the header links to the Contact page with the email form.✔️
+* Navigation bar in the desktop and tablet is below the header and have links to all the website pages. In the mobile screen it's fixed on top of the page with all the menu links in a toggle menu.✔️
+* Home links to the homepage.✔️
+* Dropdown food menu open choice of three menus, a la carte, pre theatre, group menu.✔️
+* A la carte link opens the a-la-carte.html page.✔️
+* Pre theatre link opens the pre-theatre.html page.✔️
+* Group menu link opens the group-menu.html page.✔️
+* Wine list link opens the wine-list.html page.✔️
+* Contact link opens the contact.html page.✔️
+* On the mobile view the map pin icon is linked to Google maps and open a new tab showing the restaurant location.✔️
+* On the mobile view the contact information are below the navbar and cantered. The email address is linked to the contact.html page.✔️
+* The links on each message on the special section in index.html are opening the contact page email form.✔️
+* In desktop and tablet view the message is in three small message container on the left side. In mobile view the messages are in a single column at the center of the screen.✔️
+* The review section is displayed below the specials section and contains three reviews. On tablet and desktop screens the reviews are displayed one beside the other, with the tablet screen only displaying two reviews, in the mobile view the three reviews are displayed vertically and they take the full width of the screen.✔️
+* Each review contains a picture of the author, a review title, the review message and the author's name.✔️
+* In the footer there are four links to social media websites are displayed horizontally in the centre.✔️
+* Facebook icon links to [facebook home page](https://www.facebook.com/).✔️
+* twitter icon links to [twitter home page](https://twitter.com/).✔️
+* Instagram icon links to [instagram home page](https://instagram.com/).✔️
+* Tripadvisor icon links to [tripadvisor home page](https://www.tripadvisor.com/).✔️
+* All social media links open new tabs.✔️
+* In a-la-carte.html the menu information are displayed in a single column in the centre of the screen. The **download the menu here** link opens a new tab with a printable version of the menu in pdf format.✔️
+* In pre-theatre.html the menu information are displayed in a single column in the centre of the screen. The **download the menu here** link opens a new tab with a printable version of the menu in pdf format.✔️
+* In group-menu.html the menu information are displayed in a single column in the centre of the screen. The **download the menu here** link opens a new tab with a printable version of the menu in pdf format.✔️
+* Wine-list.html the menu information is displayed in two columns for desktop and tablet screens and in a single column in mobile screens. The **download the menu here** link opens a new tab with a printable version of the menu in pdf format.✔️
+* In gallery.html on desktop screen the gallery display in image collage with a zoom in effect when hover. On mobile and tablet view the images will display on a single column taking the full width of the screen.✔️
+* In contact.html the send button is linked to a modal, with a message that the request has been sent.✔️
+* The home button in the modal is linked back to the home page.✔️
 
 
 All the links between the pages have been tested, also the links or social media tripadvisor and Google maps.
 The website was tested on Chrome  and Mozilla.
+
+### CSS code has passed the official jigsaw validator with no issues✔️
+### HTML code has passed the official W3C validator with no issues✔️
  
 ## Bugs
 --- 
-* Problem found: Navbar elements moving when hover due to adding border. Solution: Add a transparent border value on the elements and just change colour when hover (style.css line 164).
-![](assets/docs/bugs-screenshots/line164.png)
-* Problem found: White band on the right of the screen apperar on mobile view and smaller screens. Solution: Add overflow-x property and give a value of hidden for the whole html page (style.css line 7).
-![](assets/docs/bugs-screenshots/line7.png)
-* Problem found: Dropdown item in toggle menu not aligned with the other items. Solution: Correct margin-right property with value 8px (style.css line 220).  
-![](assets/docs/bugs-screenshots/line220.png)
-* Problem Found: Elements in the navbar in screens with width smaller than 350px are keeping the given position. Solution: Give the navbar-brand smaller size to allow elements to stay inline (style.css line 279).  
-![](assets/docs/bugs-screenshots/line279.png)
-* Problem Found: Social media icons not centered in the footer. Solution: Code taken from Bootstrap Library, center row and col elements (style.css line 346).  
-![](assets/docs/bugs-screenshots/line346.png)
-* Problem Found: When adding overflow-x:hidden to html, body element appear a second scrollbar. Solution: add a value 100% to height property (style.css line 8)   
-![](assets/docs/bugs-screenshots/line8.png)
-* Problem Found: In the Gallery Page for desktop view the image flick when hover close to the edge, due to the rotation. Solution: Adding a negative margin of -50px solve the problem. the picture rotate covering the original size (style.css line 683).   
-![](assets/docs/bugs-screenshots/line683.png)
+* #1 Problem found: Navbar elements moving when hover due to adding border. Solution: Add a transparent border value on the elements and just change colour when hover.  
+* #3 Problem found: White band on the right of the screen apperar on mobile view and smaller screens. Solution: Add overflow-x property and give a value of hidden for the whole html page 
+* #4 Problem found: Dropdown item in toggle menu not aligned with the other items. Solution: Correct margin-right property with value 8px.  
+* #5 Problem Found: Elements in the navbar in screens with width smaller than 350px are keeping the given position. Solution: Give the navbar-brand smaller size to allow elements to stay inline.  
+* #6 Problem Found: Social media icons not centered in the footer. Solution: Code taken from Bootstrap Library, center row and col elements.  
+* #7 Problem Found: When adding overflow-x:hidden to html, body element appear a second scrollbar. Solution: add a value 100% to height property.
+* #8 Problem Found: In the Gallery Page for desktop view the image flick when hover close to the edge, due to the rotation. Solution: Adding a negative margin of -50px solve the problem. the picture rotate covering the original size.
 
 #### Steps to report a problem found:
 1. Give a short description of the problem.
@@ -283,6 +280,13 @@ To deploy the website to Github Pages Follow these steps:
 1. For the Source Branch select Master.
 1. Click on Save.
 1. The [Da Pino Restaurant Website](https://ignaziosotgiu.github.io/Restaurant-Website-MS1/) is live on Github Pages. 
+## to clone the Github repository with Git Bash
+1. go to IgnazioSotgiu/Restaurant-Website-MS1 in your browser.
+1. click on the code dropdown menu and copy the link.
+1. open Git Bash.
+1. type:  
+git clone https://github.com/IgnazioSotgiu/Restaurant-Website-MS1.git
+1. press enter
 
 
 # Acknowledgements
